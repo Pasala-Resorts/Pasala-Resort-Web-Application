@@ -9,7 +9,7 @@ class Header extends Component{
         return(
             <Navbar  expand="lg" className="bg-body-tertiary bg-light">
                 <Container>
-                    <Navbar.Brand href="#home">Logo</Navbar.Brand>
+                    <Navbar.Brand href="#home"><img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693078913/logo-wide_xdl4rm.png' alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
