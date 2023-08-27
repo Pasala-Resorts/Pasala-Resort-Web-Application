@@ -1,3 +1,13 @@
 Nav.Link{
     color: black !important;
+    justify-content: space-around;
     }
+
+.navbar-main{
+    font-weight: 700;
+    font-size: 24px;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
