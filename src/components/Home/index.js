@@ -22,7 +22,7 @@ class Home extends Component{
                         <Col md="4"></Col>
                         <Col md="4">
                             <div className="description">
-                                <h1 className='heading'>Welcome</h1>
+                                <h1 className='heading text-primary'>Welcome to Pasala Resorts</h1>
                                 <br/>
                                 <p>Here, at Pasala Resorts  we take the meaning of luxury, comfort and service to an entirely different level.  Accommodation and services which is unmatched in our urban jungle.</p> 
                                 <br/>
