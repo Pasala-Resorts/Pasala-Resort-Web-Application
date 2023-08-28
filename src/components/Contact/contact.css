@@ -1,4 +1,4 @@
-.img{
+.img-contact{
     background-image: url("https://res.cloudinary.com/dobpvkjao/image/upload/v1693078699/convo_hall3_4_-_Photo_gf33ey.jpg");
     background-size: cover;
     height: 30vh;
@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-.heading{
+.heading1{
     color: #ffffff;
     font-family: "Bree-serif";
     text-align: center;

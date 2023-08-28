@@ -48,8 +48,8 @@ const Contact = () => {
         
     <div className="container mt-5">
 
-    <div className="img">
-            <h1 className="heading">Contact Us</h1>
+    <div className="img-contact">
+            <h1 className="heading1">Contact Us</h1>
          </div>
         <div>
             <h1 className="heading2">Get In Touch</h1>
