@@ -22,15 +22,11 @@ class Home extends Component{
                         <Col md="4"></Col>
                         <Col md="4">
                             <div className="description">
-                                <h1 className='heading'>Welcome</h1>
+                                <h1 className='heading'>Welcome to Pasala Resorts</h1>
                                 <br/>
-                                <p>Ananya Eco-resorts an integral part of "Mahavir Harina Vanasthali National Park" is an eco-centre in association with Telangana State Forest Development Corporation (TSFDC) offers our guests a unique experience of being in the heart of Indian jungles, while enjoying all the creature comforts, we are familiar with at home. </p>
+                                <p>Here, at Pasala Resorts  we take the meaning of luxury, comfort and service to an entirely different level.  Accommodation and services which is unmatched in our urban jungle.</p> 
                                 <br/>
-                                <p>Here, at Ananya Eco-Resorts we take the meaning of luxury, comfort and service to an entirely different level. Located adjacent to Mahavir Harina Vanasthali National Park, which was set up by Nizam in order to preserve the precious heritage and rehabilitate deer. Our team of attentive staff will keep everyone happy with the standard of food, accommodation and services which is unmatched in our urban jungle.</p> 
-                                <br/>
-                                <p>Ananya is a man-made vision created in complete harmony with the panoramic beauty of Nature, it is built in 7 acers of lush green forest land. This super luxurious resort consists of 8 modern villas and 2 antique villas, a banquet hall, a mini-banquet hall, restaurant, spa, swimming pool and lush green gardens for destination weddings. Besides all these we have a variety bamboo gardens for small gathering; an outdoor cabana to have a romantic candle light dinner for your special night.</p>
-                                <br/>
-                                <p>Welcome to Ananya! Experience the nature and enlivening yourself with memories that will stay long for a lifetime!</p>
+                                <p>Welcome to Pasala Resorts! Experience the nature and enlivening yourself with memories that will stay long for a lifetime!</p>
                             </div>
                         </Col>
                         <Col md="4"></Col>
@@ -46,9 +42,24 @@ class Home extends Component{
                     <Col md="2"></Col>
                     <Col md="2">
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693079407/RESORT_KEESARA_17_-_Photo.jpg.0_rrztli.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Farm House</Card.Title>
+                            <Card.Text>
+                                Farm house with swiming pool and good ameneties.
+                                
+                            </Card.Text>
+                            <br/>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                    <Col md="1"></Col>
+                    <Col md="2">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg" />
+                        <Card.Body>
+                            <Card.Title>Party Lawn</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
@@ -60,23 +71,9 @@ class Home extends Component{
                     <Col md="1"></Col>
                     <Col md="2">
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_13_-_Photo_uggwdv.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                    <Col md="1"></Col>
-                    <Col md="2">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Single Cottages </Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
@@ -92,42 +89,42 @@ class Home extends Component{
                     <Col md="2"></Col>
                     <Col md="2">
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689871596/commercial-kitchen-layout-design-for-restaurants-thumbnail_xqg1oj.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Kitchen</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Opening Soon...</Button>
                         </Card.Body>
                     </Card>
                     </Col>
                     <Col md="1"></Col>
                     <Col md="2">
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155560/group_16_-_Photo_g8guf3.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Covenction Hall </Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Opening Soon...</Button>
                         </Card.Body>
                     </Card>
                     </Col>
                     <Col md="1"></Col>
                     <Col md="2">
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689090522/pexels-pixabay-261429_dypmif.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Adventure Park </Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Opening Soon...</Button>
                         </Card.Body>
                     </Card>
                     </Col>
