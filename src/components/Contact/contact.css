@@ -1,7 +1,7 @@
 .img{
     background-image: url("https://res.cloudinary.com/dobpvkjao/image/upload/v1693078699/convo_hall3_4_-_Photo_gf33ey.jpg");
     background-size: cover;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -20,3 +20,53 @@
     padding-bottom: 20px;
     
 }
+
+.contact-container{
+    background-color: #f7f7f7;
+    padding: 20px 
+}
+
+.office-address{
+background-color: lightgrey;
+ padding-top :20px;
+ border-radius: 5px;
+}
+
+.phone{
+    background-color: lightgrey;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.email{
+    background-color: lightgrey;
+    padding-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: 17px;
+    color: black;
+    font-family: "Roboto";
+    margin: 10px;
+}
+
+.span-el{
+    font-size: 20px;
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin: 10px;
+}
+
+.icon{
+    height:50px;
+    width: 50px;
+}
+
+/* .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+} */
