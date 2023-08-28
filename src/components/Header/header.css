@@ -11,3 +11,7 @@ Nav.Link{
     flex-direction: row;
     justify-content: space-around;
 }
+
+.img-logo{
+    height: 60px;
+}

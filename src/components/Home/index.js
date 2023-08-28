@@ -22,7 +22,7 @@ class Home extends Component{
                         <Col md="4"></Col>
                         <Col md="4">
                             <div className="description">
-                                <h1 className='heading'>Welcome</h1>
+                                <h1 className='heading text-primary'>Welcome</h1>
                                 <br/>
                                 <p>Ananya Eco-resorts an integral part of "Mahavir Harina Vanasthali National Park" is an eco-centre in association with Telangana State Forest Development Corporation (TSFDC) offers our guests a unique experience of being in the heart of Indian jungles, while enjoying all the creature comforts, we are familiar with at home. </p>
                                 <br/>
@@ -39,7 +39,7 @@ class Home extends Component{
                     <br/>
                     <br/>
                 <div>
-                <h1 className='heading'>Our offering</h1>
+                <h1 className='heading text-primary'>Our offering</h1>
                 <br/>
                 <br/>
                 <Row>

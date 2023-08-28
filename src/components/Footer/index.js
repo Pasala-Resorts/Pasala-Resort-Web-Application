@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import './footer.css'
 
 const Footer=()=>{
-    return( <MDBFooter bgColor='info'  className=' background-color text-center text-lg-start text-muted'>
+    return( <MDBFooter bgColor='primary'  className=' background-color text-center text-lg-start text-muted'>
     <section className='font-color d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
       <div className='me-5 d-none d-lg-block'>
         <span>Get connected with us on social networks:</span>
@@ -46,50 +46,26 @@ const Footer=()=>{
             </p>
           </MDBCol>
 
-          <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-            <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-            <p>
-              <a href='www.google.com' className='text-reset'>
-                Angular
-              </a>
-            </p>
-            <p>
-              <a href='www.google.com' className='text-reset'>
-                React
-              </a>
-            </p>
-            <p>
-              <a href='www.google.com' className='text-reset'>
-                Vue
-              </a>
-            </p>
-            <p>
-              <a href='www.google.com' className='text-reset'>
-                Laravel
-              </a>
-            </p>
-          </MDBCol>
-
           <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
             <p>
-              <a href='www.google.com' className='text-reset'>
-                Pricing
+              <a href='/' className='text-reset'>
+                Home
               </a>
             </p>
             <p>
-              <a href='www.google.com' className='text-reset'>
-                Settings
+              <a href='/gallery' className='text-reset'>
+                Gallery
               </a>
             </p>
             <p>
-              <a href='www.google.com' className='text-reset'>
-                Orders
+              <a href='/about-us' className='text-reset'>
+                About us
               </a>
             </p>
             <p>
-              <a href='www.google.com' className='text-reset'>
-                Help
+              <a href='/contact' className='text-reset'>
+                Contact
               </a>
             </p>
           </MDBCol>
