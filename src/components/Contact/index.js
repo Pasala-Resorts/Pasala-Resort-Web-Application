@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className="container mt-5">
 <div className='row'>
-    <div className="img">
+    <div className="img-contact">
             <h1 className="heading">Contact Us</h1>
          </div>
         <div>
@@ -43,22 +43,22 @@ const Contact = () => {
 
          <form onSubmit={onSubmit}>
         <div className="mb-3">
-          <label className="form-label" htmlFor="name">
+          <label className="form-label mb-2" htmlFor="name">
             Name
           </label>
-          <input className="form-control" type="text" id="name" required />
+          <input className="form-control mb-5" type="text" id="name" required />
         </div>
         <div className="mb-3">
-          <label className="form-label" htmlFor="email">
+          <label className="form-label mb-2" htmlFor="email">
             Email
           </label>
-          <input className="form-control" type="email" id="email" required />
+          <input className="form-control mb-5" type="email" id="email" required />
         </div>
         <div className="mb-3">
-          <label className="form-label" htmlFor="message">
+          <label className="form-label mb-2" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control" id="message" required />
+          <textarea className="form-control mb-5" id="message" required />
         </div>
         <button className="btn btn-success mb-20" type="submit">
           {formStatus}
@@ -67,33 +67,33 @@ const Contact = () => {
         
         </div>
         <div className="col-md-6 ">
-          <h2>Office Information</h2>
+          <h2 className='heading-info'>Office Information</h2>
           <div className="office-info">
-            <div className="office-info-item office-address">
-        
-            
-              <div>
-              <span className='span-el'>Office Address :</span>
-              <p className='paragraph'>39555 Orchard Hill Place, Suite - 225 Novi, Mi 4837</p>
-              </div>
-              
-            </div>
-            <div className="office-info-item mb-20 phone">
-              {/* <img src={phoneLogo} alt="Phone" /> */}
-              <div>
-              <span className='span-el'>Phone :</span>
-              <p className='paragraph'> +1-123-456-7890</p>
-              </div>
-  
-            </div>
             <div className="office-info-item email">
-              {/* <img src={emailLogo} alt="Email" /> */}
-              <div>
-              <span className='span-el'>Email:</span>
-              <p className='paragraph'> contact@example.com</p>
-              </div>
-              
+            
+            <div class="address-content">
+              <i class="fas fa-map icon-address"></i>
+              <p className='paragraph'>39555 Orchard Hill Place, Suite - 225 Novi, Mi 4837</p>
             </div>
+          </div>
+
+          <div className="office-info-item email">
+            <div class="email-content">
+              <i class="fas fa-square-phone icon-email"></i>
+              <p className='paragraph'> +1 (804) 956-8331</p>
+            </div>
+          </div>
+
+
+
+          <div className="office-info-item email">
+            <div class="email-content">
+              <i class="fas fa-envelope icon-email"></i>
+              <p className='paragraph'> contact@example.com</p>
+            </div>
+          </div>
+
+
           </div>
         </div>
       </div>
