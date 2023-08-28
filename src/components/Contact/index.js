@@ -30,11 +30,11 @@ const Contact = () => {
 
   return (
     <div className="container mt-5">
-      <div className="row">
-      <div className="img">
-             <h1 className="heading">Contact Us</h1>
-          </div>
-         <div>
+<div className='row'>
+    <div className="img">
+            <h1 className="heading">Contact Us</h1>
+         </div>
+        <div>
             <h1 className="heading2">Get In Touch</h1>
         </div>
         <div className="col-md-6">
