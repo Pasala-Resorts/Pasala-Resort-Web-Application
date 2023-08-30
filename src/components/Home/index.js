@@ -26,7 +26,7 @@ class Home extends Component{
                                 <br/>
                                 <p>Here, at Pasala Resorts  we take the meaning of luxury, comfort and service to an entirely different level.  Accommodation and services which is unmatched in our urban jungle.</p> 
                                 <br/>
-                                <p>Welcome to Pasala Resorts! Experience the nature and enlivening yourself with memories that will stay long for a lifetime!</p>
+                                <p> Experience the nature and enlivening yourself with memories that will stay long for a lifetime!</p>
                             </div>
                         </Col>
                         <Col md="4"></Col>
