@@ -10,6 +10,7 @@ import Card from 'react-bootstrap/Card';
 
 
 import './home.css'
+import { Container } from "react-bootstrap";
 
 function Home (){ 
     useEffect(() => {
@@ -19,6 +20,7 @@ function Home (){
         return(
             <div>
                 <div data-aos="" className='home-main-image'>
+                    <h1>PASALA RESORTS</h1>
                 </div>
                     <br/>
                     <br/>
@@ -28,7 +30,7 @@ function Home (){
                         <Col md="4"></Col>
                         <Col md="4">
                             <div className="description">
-                                <h1 className='heading text-primary'>Welcome to Pasala Resorts</h1>
+                                <h1 className='heading text-primary'>Welcome</h1>
                                 <br/>
                                 <p>Here, at Pasala Resorts  we take the meaning of luxury, comfort and service to an entirely different level.  Accommodation and services which is unmatched in our urban jungle.</p> 
                                 <br/>
@@ -137,6 +139,9 @@ function Home (){
                     <Col md="2"></Col>
                 </Row>
                 </div>
+                <Container>
+
+                </Container>
                 <br/>
                 <br/>
                 <br/>

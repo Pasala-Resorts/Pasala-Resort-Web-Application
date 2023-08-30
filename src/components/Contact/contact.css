@@ -1,110 +1,277 @@
-.img-contact{
-    background-image: url("https://res.cloudinary.com/dobpvkjao/image/upload/v1693078699/convo_hall3_4_-_Photo_gf33ey.jpg");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.page-header-aboutus {
+	margin: 0;
+	border: 0;
+}
+
+.page-title-aboutus {
+    display: block;
+    background-image: url('https://www.sigmaintel.com/wp-content/uploads/2023/04/dylan-gillis-KdeqA3aTnBY-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.heading1{
-    color: #ffffff;
-    font-family: "Bree-serif";
-    text-align: center;
-}
-
-.heading2{
-    color: black;
-    font-family: "Bree-serif";
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 106px;
+    padding-bottom: 106px;
+    position: relative;
+    padding: 28px 0 22px;
+    overflow: hidden;
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    height: 30vh;
     
 }
 
-.contact-container{
-    background-color: #f7f7f7;
-    padding: 20px 
-}
-
-.office-address{
-background-color: lightgrey;
- padding-top :20px;
- border-radius: 5px;
-}
-
-.phone{
-    background-color: lightgrey;
-    padding-top: 20px;
-    border-radius: 5px;
-}
-
-.email{
-    background-color: lightgrey;
-    padding-top: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.paragraph{
-    font-size: 17px;
-    color: black;
-    font-family: "Roboto";
-    margin: 10px;
-}
-
-.span-el{
-    font-size: 20px;
-    color: black;
-    font-family: "Roboto";
-    font-weight: bold;
-    margin: 10px;
-}
-
-.icon-address{
-    font-size: 60px;
-    padding-left: 10px;
-}
-
-
-.icon-phone{
-    font-size: 60px;
-    padding-left: 10px;
-}
-
-.icon-email{
-    font-size: 60px;
-    padding-left: 10px;
-}
-/* .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-} */
-
-.address-content {
-    display: flex;
-    align-items: center;
-    padding: 16px;
-
-  }
-  
-  .icon-address {
-    margin-right: 40px; /* Adjust the spacing between the icon and text */
+.page-title-container-aboutus{
     color: white;
-  }
-.email-content {
-    display: flex;
-    align-items: center;
-    padding: 16px;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    padding-top: 8%;
 
+}
+
+@media screen and (max-width:768px) {
+    .page-title-container-aboutus{
+        padding-top:16%;
+    }
+    
+}
+
+.overlay-aboutus {
+    opacity: 60%;
+    filter: alpha(opacity=60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #071327;
+}
+
+@media screen and (max-width:768px){
+    .page-title-aboutus{
+        height: 28vh;
+    }}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  overflow: hidden;
+}
+
+.section-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 35px;
+}
+
+.sec-pad {
+  padding: 60px 0 0;
+  margin: 0 0;
+}
+
+.contact-sec {
+  align-items: center;
+  display: flex;
+  background-color: #5cbde466;
+}
+
+.contact-sec .contact-ul li,
+.contact-ul b {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-wrap: break-word;
+}
+
+.contact-sec .contact-ul i {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.contact-detail a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-sec .contact-ul li b:hover {
+  color: #f93;
+}
+
+.contact-sec .contact-ul li .fa-location-dot {
+  color: #f44337;
+  border: 2px solid #f4433790;
+}
+
+.contact-sec .contact-ul li .fa-phone {
+  color: #00b055;
+  border: 2px solid #00b05590;
+}
+
+.contact-sec .contact-ul li .fa-envelope {
+  color: #ff6347;
+  border: 2px solid #ff634790;
+}
+
+.contact-detail span {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.contact-detail span a {
+  font-size: 20px;
+  padding: 6px 12px;
+  color: #000;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+.contact-detail span .fb {
+  color: #3b5998;
+  border: 3px solid #3b5998;
+}
+.contact-detail span .fb:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.contact-detail span .insta {
+  color: #833ab4;
+  border: 3px solid #833ab4;
+}
+.contact-detail span .insta:hover {
+  color: #fff;
+  background-color: #833ab4;
+}
+
+.contact-detail span .twitter {
+  color: #00acee;
+  border: 3px solid #00acee;
+}
+.contact-detail span .twitter:hover {
+  color: #fff;
+  background-color: #00acee;
+}
+
+form.contFrm {
+  max-width: 396px;
+  margin: auto;
+}
+
+.inptFld {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 0 0 10px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+}
+
+.contFrm textarea {
+  height: 75px;
+  padding-top: 5px;
+}
+.inptBtn {
+  height: 50px;
+  border: 0;
+  background: #00b055;
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Responcive css Start */
+
+@media (max-width: 991px) {
+  .sec-pad {
+    padding: 20px 0 0px;
   }
-  
-  .icon-email {
-    margin-right: 40px; /* Adjust the spacing between the icon and text */
-    color: white;
+
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 18px;
   }
-  
-  .heading-info{
-    font-family: "roboto";
-    padding-bottom: 30px;
+
+  .contact-sec .contact-ul i {
+    font-size: 14px;
+    padding: 6px;
+    margin-right: 6px;
   }
+
+  .inptFld {
+    height: 40px;
+    margin: 0 0 10px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-detail span {
+    width: auto;
+  }
+  .contact-detail span a {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .contact-sec {
+    border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+  }
+
+  .contact-sec .contact-ul i {
+    border: none;
+  }
+  .inptFld {
+    height: 36px;
+    margin: 0 0 8px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 16px;
+  }
+}
