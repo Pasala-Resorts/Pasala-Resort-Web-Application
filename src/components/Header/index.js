@@ -12,8 +12,8 @@ class Header extends Component{
         return(
             <Navbar  expand="lg" className="bg-body-tertiary bg-primary">
                 <Container className='navbar-main'>
-                    <Navbar.Brand href="#home"><img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693213313/logo_1_lszeve.png' alt="logo" className='img-logo'/></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Brand href="/"><img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693213313/logo_1_lszeve.png' alt="logo" className='img-logo'/></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"><i class="bi-list"></i></Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto  navbar-main">
                         <Nav.Link as={Link} to="/" className='text-light'>Home</Nav.Link>
