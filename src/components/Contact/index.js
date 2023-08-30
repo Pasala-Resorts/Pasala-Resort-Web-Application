@@ -74,7 +74,7 @@ const Contact = () => {
             
               <div>
               <span className='span-el'>Office Address :</span>
-              <p className='paragraph'>39555 Orchard Hill Place, Suite - 225 Novi, Mi 4837</p>
+              <p className='paragraph'>Tera Soft 3rd floor </p>
               </div>
               
             </div>
