@@ -41,7 +41,7 @@ function Home (){
                     <br/>
                     <br/>
                 <div>
-                <h1 className='heading text-primary'>Our offering</h1>
+                <h1 className='heading text-primary'>Our Offering</h1>
                 <br/>
                 <br/>
                 <Row data-aos="flip-up">
