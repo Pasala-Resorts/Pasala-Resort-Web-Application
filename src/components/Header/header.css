@@ -15,3 +15,12 @@ Nav.Link{
 .img-logo{
     height: 60px;
 }
+
+.bg-primary-color {
+     background: #675D50 !important;  /* Primary */
+}
+
+.btn-color {
+    background: #F3DEBA !important;
+    font-weight: 500;
+}
