@@ -6,12 +6,17 @@
 .description{
     text-align: center;
     font-size: 24px;
+    
 }
 
 .heading{
     color:greenyellow;
     font-weight: 600;
     text-align: center;
+}
+
+.description-container-home{
+    background-color: #dbf3c9;
 }
 
 .map{
@@ -24,3 +29,28 @@ iframe{
     height: 70vh;
     width: 100vw;
 }
+
+.img-home{
+    height:60vh;
+    width: 40vw;
+}
+
+.description-home{
+display: flex;
+align-items: center;
+}
+
+.nature-container-home{
+    /* background-color: hsl(170, 72%, 33%); */
+    background-color:#93dc5c;
+    max-width: 100vw !important;
+    color:#fff;
+    margin: 0;
+    padding-top: 4vh !important;
+}
+
+.nature-card-home{
+    text-align: center;
+    padding: 0 8vh 5vh 8vh !important;
+}
+

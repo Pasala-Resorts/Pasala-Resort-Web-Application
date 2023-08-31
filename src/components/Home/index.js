@@ -5,8 +5,9 @@ import "aos/dist/aos.css";
 // import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+import OurOffrings from "../OurOfferings/ourOfferings";
 
 
 import './home.css'
@@ -22,31 +23,62 @@ function Home (){
                 <div data-aos="" className='home-main-image'>
                     <h1>PASALA RESORTS</h1>
                 </div>
-                    <br/>
-                    <br/>
-                <br/>
-                <br/>
-                    <Row data-aos="zoom-out-right">
-                        <Col md="4"></Col>
-                        <Col md="4">
+                    <Row className="description-container-home" data-aos="zoom-out-right">
+                   <Row><br/><br/><br/></Row>
+                        <Col md="1"></Col>
+                        <Col md="4" className="description-home">
                             <div className="description">
-                                <h1 className='heading text-primary'>Welcome</h1>
+                                <h1 className='heading text-success'>Welcome</h1>
                                 <br/>
                                 <p>Here, at Pasala Resorts  we take the meaning of luxury, comfort and service to an entirely different level.  Accommodation and services which is unmatched in our urban jungle.</p> 
                                 <br/>
                                 <p> Experience the nature and enlivening yourself with memories that will stay long for a lifetime!</p>
                             </div>
                         </Col>
-                        <Col md="4"></Col>
+                        <Col md="1"></Col>
+                        <Col md="5">
+                            <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg" alt="welcome" className="img-home" />
+                        </Col>
+                        <Col md="1"></Col>
+                       <Row> <br/>
+                    <br/>
+                    <br/> </Row>
                     </Row>
+                   
+                    <Container className="nature-container-home">
+                    <Row></Row>
+                    <Row className="text-center"><h1>In Love,with Nature</h1></Row>
                     <br/>
-                    <br/>
+                    <Row className="nature-home">
+                        <Col className="nature-card-home" md="3">
+                        <h1>145 Acre</h1>
+                        <h4>Gated Farm Project</h4>
+                        <p>Be sure of security by being a part of biggest farm Community</p>
+                        </Col>
+                        <Col className="nature-card-home" md="3">
+                        <h1>70%</h1>
+                        <h4>Green Zone</h4>
+                        <p>More than 70% of the project is green zone. More trees, less pollution</p>
+                        </Col>
+                        <Col className="nature-card-home" md="3">
+                        <h1>1 Hr</h1>
+                        <h4>Drive from city</h4>
+                        <p>Your weekend home is just 1Hr drive from the city and closer to airport.</p>
+                        </Col>
+                        <Col className="nature-card-home" md="3">
+                        <h1>20+</h1>
+                        <h4>Luxury Amenities</h4>
+                        <p>20+ Luxury amenities which no other farm Project offers. Yes, we bet on it.</p>
+                        </Col>
+                    </Row>
+                </Container>
+                <br/>
                     <br/>
                 <div>
-                <h1 className='heading text-primary'>Our Offering</h1>
+                <h1 className='heading text-success'>Our Offering</h1>
                 <br/>
                 <br/>
-                <Row data-aos="flip-up">
+                {/* <Row data-aos="flip-up">
                     <Col md="2"></Col>
                     <Col md="2">
                     <Card style={{ width: '18rem' }}>
@@ -137,11 +169,11 @@ function Home (){
                     </Card>
                     </Col>
                     <Col md="2"></Col>
+                </Row> */}
+                <Row>
+                  <OurOffrings /> 
                 </Row>
                 </div>
-                <Container>
-
-                </Container>
                 <br/>
                 <br/>
                 <br/>

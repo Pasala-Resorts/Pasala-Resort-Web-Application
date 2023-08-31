@@ -10,7 +10,7 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 class Header extends Component{
     render(){
         return(
-            <Navbar  expand="lg" className="bg-body-tertiary bg-primary">
+            <Navbar  expand="lg" className="bg-body-tertiary bg-success">
                 <Container className='navbar-main'>
                     <Navbar.Brand href="/"><img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693213313/logo_1_lszeve.png' alt="logo" className='img-logo'/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"><i class="bi-list"></i></Navbar.Toggle>
@@ -20,7 +20,7 @@ class Header extends Component{
                         <Nav.Link as={Link} to="/gallery" className='text-light'>Gallery</Nav.Link>
                         <Nav.Link as={Link} to="/about-us" className='text-light'>About Us</Nav.Link>
                         <Nav.Link as={Link} to="/Contact" className='text-light'>Contact</Nav.Link>
-                        <Nav.Link as={Link} to="/book-now" className='text-light'><Button className='bg-info'>Book now</Button></Nav.Link>
+                        <Nav.Link as={Link} to="/book-now" className='text-light'><Button style={{backgroundColor:'#c3f550'}}>Book now</Button></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
