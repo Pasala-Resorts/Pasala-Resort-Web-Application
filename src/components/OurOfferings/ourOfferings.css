@@ -1,0 +1,16 @@
+.our-offerings-image-home{
+    height:60vh;
+    width: 40vw;
+}
+
+.our-offerings-image-card-home:hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.our-offerings-image-card-home{
+background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693078268/RESORT_KEESARA_17_-_Photo_hiaogp.jpg');
+height:40vh;
+width: 30vw;
+margin: 50px;
+}
