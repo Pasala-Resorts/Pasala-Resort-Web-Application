@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import './footer.css'
 
 const Footer=()=>{
-    return( <MDBFooter style={{backgroundColor:"#c3f550"}} data-aos="zoom-in"  className=' background-color text-center text-lg-start text-muted'>
+    return( <MDBFooter style={{backgroundColor:"#1B1717"}} data-aos="zoom-in"  className=' background-color text-center text-lg-start text-muted'>
     <section className='font-color d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
       <div className='me-5 d-none d-lg-block'>
         <span>Get connected with us on social networks:</span>

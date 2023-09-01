@@ -6,30 +6,30 @@ import './ourOfferings.css'
 
 
 class OurOffrings extends Component{
-    state={isDisplay1:false,
-        isDisplay2:false,isDisplay3:false,isDisplay4:false}
+    // state={isDisplay1:false,
+    //     isDisplay2:false,isDisplay3:false,isDisplay4:false}
 
-    enter1=()=>this.setState({isDisplay1:true})
+    // enter1=()=>this.setState({isDisplay1:true})
 
-    leave1=()=>this.setState({isDisplay1:false})
+    // leave1=()=>this.setState({isDisplay1:false})
 
-    enter2=()=>this.setState({isDisplay2:true})
+    // enter2=()=>this.setState({isDisplay2:true})
 
-    leave2=()=>this.setState({isDisplay2:false})
+    // leave2=()=>this.setState({isDisplay2:false})
 
-    enter3=()=>this.setState({isDisplay3:true})
+    // enter3=()=>this.setState({isDisplay3:true})
 
-    leave3=()=>this.setState({isDisplay3:false})
+    // leave3=()=>this.setState({isDisplay3:false})
 
-    enter4=()=>this.setState({isDisplay4:true})
+    // enter4=()=>this.setState({isDisplay4:true})
 
-    leave4=()=>this.setState({isDisplay4:false})
+    // leave4=()=>this.setState({isDisplay4:false})
 
     render(){
-        const {isDisplay1,isDisplay2,isDisplay3,isDisplay4}=this.state
+        // const {isDisplay1,isDisplay2,isDisplay3,isDisplay4}=this.state
         return(
             <>
-            <Row>
+            {/* <Row >
             <Col onMouseOver={this.enter1} onMouseLeave={this.leave1}  className="our-offerings-image-card-home1">
            {isDisplay1 && 
            <Col className="card-our-offerings">
@@ -59,7 +59,103 @@ class OurOffrings extends Component{
             <Col onMouseOver={this.enter4} onMouseLeave={this.leave4}  className="our-offerings-image-card-home2">
            {isDisplay4 && <Col><h1>Farm House</h1></Col>} 
             </Col>
-        </Row>
+        </Row> */}
+        {/* <div class="wrapper">
+            <Row>
+                <Col md="1"></Col>
+                <Col md="4">
+<div  onMouseOver={this.enter1} onMouseLeave={this.leave1}  class="zoom-effect-container">
+  <div class="image-card">
+      <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693561495/RENDER_10_-_Photo_1_ph9afh.jpg" alt=""/>
+      {isDisplay1 && 
+            <div className="centered">
+           <h1>Farm House</h1>
+           <ul>
+            <li>9 Rooms</li>
+            <li>Upto 30+ members capacity</li>
+            <li>Swimming pool</li>
+            <li>Pool Bar</li>
+            <li>Dance Floor</li>
+            <li>Projector Screening</li>
+            <li>Pantry </li>
+            <li>Camp Fire</li>
+           </ul>
+           </div>} 
+  </div>
+</div>
+</Col>
+<Col md="2"></Col>
+<Col md="4">
+<div class="zoom-effect-container">
+  <div class="image-card">
+      <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693561495/RENDER_10_-_Photo_1_ph9afh.jpg" alt=""/>
+  </div>
+</div>
+</Col>
+<Col md="1"></Col>
+</Row>
+<br/>
+<br/>
+<Row>
+<Col md="1"></Col>
+    <Col md="4">
+<div class="zoom-effect-container">
+  <div class="image-card">
+      <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693561495/RENDER_10_-_Photo_1_ph9afh.jpg" alt=""/>
+  </div>
+</div>
+</Col>
+<Col md="2"></Col>
+<Col md="4">
+<div class="zoom-effect-container">
+  <div class="image-card">
+      <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693561495/RENDER_10_-_Photo_1_ph9afh.jpg" alt=""/>
+  </div>
+</div>
+</Col>
+<Col md="1"></Col>
+</Row>
+</div> */}
+<Row>
+    <Col md="1"></Col>
+    <Col md="5">
+    <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
+    </Col>
+    <Col className="text-center" md="5">
+    <h1 className="farm-house-heading">Farm House</h1>
+    <h4>9 Rooms</h4>
+            <h4>Upto 30+ members capacity</h4>
+            <h4>Swimming pool</h4>
+            <h4>Pool Bar</h4>
+            <h4>Dance Floor</h4>
+            <h4>Projector Screening</h4>
+            <h4>Pantry </h4>
+            <h4>Camp Fire</h4>
+    </Col>
+    <Col md="1"></Col>
+</Row>
+<Row>
+<br/>
+<br/>
+</Row>
+<Row>
+    <Col md="1"></Col>
+    <Col className="text-center" md="5">
+        <h1 className="farm-house-heading">Party lawn</h1>
+        <h4>9 Rooms</h4>
+            <h4>Upto 30+ members capacity</h4>
+            <h4>Swimming pool</h4>
+            <h4>Pool Bar</h4>
+            <h4>Dance Floor</h4>
+            <h4>Projector Screening</h4>
+            <h4>Pantry </h4>
+            <h4>Camp Fire</h4>
+    </Col>
+    <Col md="5">
+    <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
+    </Col>
+    <Col md="1"></Col>
+</Row>
             </>
         )
     }

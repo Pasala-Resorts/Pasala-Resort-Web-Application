@@ -3,6 +3,10 @@
     width: 40vw;
 }
 
+.our-offerings-image-container{
+overflow: hidden;
+}
+
 .our-offerings-image-card-home1:hover{
     background-color: rgb(73, 37, 37);
     opacity: 0.8;
@@ -25,6 +29,7 @@ margin-top: 3vh !important;
 margin-bottom: 3vh !important;
 margin-left: 4vh !important;
 margin-right: 3vh !important;
+overflow: hidden;
 }
 
 .our-offerings-image-card-home2{
@@ -35,10 +40,11 @@ margin-right: 3vh !important;
     margin-bottom: 3vh !important;
     margin-left: 3vh !important;
     margin-right: 3vh !important;
+    overflow: hidden;
     }
 
 .card-our-offerings{
-    color: black;
+    color:  #1B1717;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,8 +59,76 @@ ul{
 li{
     list-style-type: square;
     font-size: 24px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #1B1717;
 }
 
-.row{
+/* .row{
     padding: 0px !important;
+} */
+
+h1{
+    font-family: 'Maven Pro', sans-serif;
+    color: #1B1717;
 }
+
+/*Related post at: https://superdevresources.com/zoom-effect-image-css/ */
+/* body {
+    background-color: #1D1F20;
+    padding-top: 40px;
+    font-family: sans-serif;
+  } */
+  
+  .wrapper {
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+  text-align: center;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .zoom-effect-container {
+      float: left;
+      position: relative;
+      width: 680px;
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  
+  .image-card {
+    position: absolute;
+    min-height: 100% !important;
+    top: 0;
+    left: 0;
+    
+  }
+  .image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  
+  .zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
+
+  .our-offerings-image{
+    height: 100%!important;
+    width: 100% !important;
+  }
+
+  .farm-house-heading{
+    font-family: 'Caveat', cursive;
+    color: #1B1717;
+  }
+
+  h4{
+    font-family: 'Maven Pro', sans-serif;
+  }

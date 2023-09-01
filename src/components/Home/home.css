@@ -49,6 +49,7 @@ iframe{
 .description-home{
 display: flex;
 align-items: center;
+margin-left: 0px !important;
 }
 
 .nature-container-home{
@@ -271,4 +272,13 @@ a.palasa-resorts_text::after {
   body:active * {
     animation: none !important;
   }
+
+  .font-curly-style_our_offerings {
+    font-family: 'Maven Pro', sans-serif;
+    color: #1B1717;
+}
+
+.our-offrings-background{
+    background-color:#ede8e2 !important;
+}
   

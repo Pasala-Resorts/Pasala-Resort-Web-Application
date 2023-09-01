@@ -90,10 +90,10 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
+            <div className="our-offrings-background">
             <br/>
                 <br/>
-            <div>
-            <h1 className='heading text-success'>Our Offering</h1>
+            <h1 className='heading font-curly-style_our_offerings'>Our Offerings</h1>
             <br/>
             <br/>
             {/* <Row data-aos="flip-up">
@@ -191,10 +191,9 @@ function Home() {
             <Row>
               <OurOffrings /> 
             </Row>
+            <br/>
+            <br/>
             </div>
-            <br/>
-            <br/>
-            <br/>
             <div data-aos="fade-up" className='map'>
             <iframe title='Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121781.57558034034!2d78.52197075602248!3d17.475299273581026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb7913fd7a5223%3A0x1f91fe79c6acffdb!2sPASALA%20RESORTS!5e0!3m2!1sen!2sin!4v1693082106166!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
