@@ -1,65 +1,133 @@
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
 import './aboutus.css'
 
 const AboutUs=()=>{
-    return(
-        <>
-        <div className="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  return(
+    <div>
+    <div className="container">
+      <div className="row">
+        <div className="about-image">
+          <h1 className="heading1">About Us</h1>
+        </div>
+        <div className="mid-container">
+              <h1>AboutUs-Home </h1>
+        </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+              {/* Contact information content */}
+                <h5 className="pasala-heading">ABOUT PASALA RESORTS</h5>
+                <h1 className="pasala-sub">Luxury <br></br>Resorts in The Heart Of <br></br>Bhagya Nagar</h1>
+                <p className="pasala-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing
+                integer ultrices suspendisse varius etiam est. Est, felis, tempus nec
+                vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum
+                ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.
+                </p>
+                <div className="button-container">
+                <button className="button">DISCOVER MORE</button>
+                </div>
+                
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+                {/* Image content */}
+                <img
+                  src="https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=2048x2048&w=is&k=20&c=hKhLRUpl6c1p_6CdUHRLTAR-UEBdR6vml7M5AtCSCL4="
+                  alt=""
+                  className="flex-image"
+                />
+                
+          </div>
+          
+      </div>
+</div>
+<div class="bottom-container">
+  <h5 className="section-heading-title-small">DISCOVER</h5>
+  <h1 className="bottom-headin">Our Best Amenities</h1>
+  <p className="bottom-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est.<br></br>
+Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor<br></br>
+sagittis amet odio est. Sit semper et velit fusce.</p>
+<div className="container">
+<div className="row">
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+        <div className="icon-box-1">
+          <div className="icon-box-1-icon">
+            <i class="fas fa-wifi"></i>
+            <p className="icon-twxt">Fast WiFi</p>
+          </div>
+        </div>
+    </div>
+
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+        <div className="icon-box-1">
+          <div className="icon-box-1-icon">
+          <i class="fas fa-mug-hot"></i>
+            <p className="icon-twxt">Coffee-Machine</p>
+          </div>
+        </div>
+    </div>
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+        <div className="icon-box-1">
+          <div className="icon-box-1-icon">
+          <i class="fas fa-bath"></i>
+            <p className="icon-twxt">Bath</p>
+          </div>
+        </div>
+    </div>
+
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+        <div className="icon-box-1">
+          <div className="icon-box-1-icon">
+          <i class="fas fa-car"></i>
+            <p className="icon-twxt">Parking Space  </p>
+          </div>
+        </div>
+    </div>
+
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+        <div className="icon-box-1">
+          <div className="icon-box-1-icon">
+          <i class="fas fa-person-swimming"></i>
+            <p className="icon-twxt">Swimming Pool</p>
+          </div>
+        </div>
+    </div>
+
+    
+
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+      <div className="icon-box-1">
+        <div className="icon-box-1-icon">
+        <i class="fas fa-fire"></i>
+          <p className="icon-twxt">Camp Fire</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+      <div className="icon-box-1">
+        <div className="icon-box-1-icon">
+        <i class="fab fa-watchman-monitoring"></i>
+          <p className="icon-twxt">Watchman Monitoring</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+      <div className="icon-box-1">
+        <div className="icon-box-1-icon">
+        <i class="fas fa-utensils"></i>
+          <p className="icon-twxt">Kitchen</p>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+</div>
+</div>
+</div>
 </div>
 
-<h2 >Our Team</h2>
-<Row>
-    <Col md={2}></Col>
-<Col md={3}>
-  <div className="column">
-    <div className="card">
-      <img className='img1' src="/w3images/team1.jpg" alt="Jane" />
-      <div className="container">
-        <h2>Sagar Vikram Pasala </h2>
-        <p className="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  </Col>
-  <Col md={3}>
-  <div className="column">
-    <div className="card">
-      <img className='img1' src="https://www.w3schools.com/w3images/team2.jpg.jpg" alt="Mike" />
-      <div className="container">
-        <h2>Murali </h2>
-        <p className="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  </Col>
-  <Col md={3}>
-  <div className="column">
-    <div className="card">
-      <img className='img1' src="/w3images/team3.jpg" alt="John"  />
-      <div className="container">
-        <h2>Puneeth </h2>
-        <p className="title">Designer</p>
-        <p>Pasla Resorts.</p>
-        <p>john@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  </Col>
-  </Row>
-        </>
-    )
+  )
 }
 
 export default AboutUs
