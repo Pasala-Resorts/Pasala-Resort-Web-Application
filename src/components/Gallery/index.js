@@ -22,12 +22,12 @@ const images = [
         thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693582902/REN_13_-_Photo_kxrrma.jpg",
       },
       {
-        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_13_-_Photo_uggwdv.jpg",
-        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_13_-_Photo_uggwdv.jpg",
+        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693584231/WhatsApp_Image_2023-09-01_at_8.39.31_PM_azensm.jpg",
+        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693584231/WhatsApp_Image_2023-09-01_at_8.39.31_PM_azensm.jpg",
       },
       {
-        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/group_17_-_Photo_ccd3oz.jpg",
-        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/group_17_-_Photo_ccd3oz.jpg",
+        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693584325/WhatsApp_Image_2023-09-01_at_8.39.27_PM_x16srw.jpg",
+        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693584325/WhatsApp_Image_2023-09-01_at_8.39.27_PM_x16srw.jpg",
       },
       {
         original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg",
