@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './ourOfferings.css'
-
+import{ Button }from "react-bootstrap";
 
 class OurOffrings extends Component{
     // state={isDisplay1:false,
@@ -130,7 +130,11 @@ class OurOffrings extends Component{
             <h4>Dance Floor</h4>
             <h4>Projector Screening</h4>
             <h4>Pantry </h4>
-            <h4>Camp Fire</h4>
+            {/* <h4>Camp Fire</h4> */}
+            <br/>
+            <Button  style={
+                {border:"1px solid black",color:"black"}
+            } className="bg-transparent">Book Now</Button>
     </Col>
     <Col md="1"></Col>
 </Row>
@@ -149,7 +153,11 @@ class OurOffrings extends Component{
             <h4>Dance Floor</h4>
             <h4>Projector Screening</h4>
             <h4>Pantry </h4>
-            <h4>Camp Fire</h4>
+            {/* <h4>Camp Fire</h4> */}
+            <br/>
+            <Button  style={
+                {border:"1px solid #1B1717",color:"#1B1717"}
+            } className="bg-transparent">Book Now</Button>
     </Col>
     <Col md="5">
     <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
