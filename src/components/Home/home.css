@@ -11,17 +11,28 @@
 
 .heading{
     color:greenyellow;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
+    font-size: 6rem;
+}
+
+.font-curly-style_welcome {
+    font-family: 'Caveat', cursive;
+    color: #1B1717;
 }
 
 .description-container-home{
-    background-color: #dbf3c9;
+    background-color: #EEEBDD;
 }
 
 .map{
     height: 50vh;
     height: 70vh;
+}
+
+.font-style_desc {
+    font-family: 'Caveat', cursive;
+    color: #1B1717;
 }
 
 iframe{
@@ -42,7 +53,7 @@ align-items: center;
 
 .nature-container-home{
     /* background-color: hsl(170, 72%, 33%); */
-    background-color:#93dc5c;
+    background-color:#e9dfd7;
     max-width: 100vw !important;
     color:#fff;
     margin: 0;
@@ -54,3 +65,210 @@ align-items: center;
     padding: 0 8vh 5vh 8vh !important;
 }
 
+.font-curly-style_main {
+    font-family: 'Caveat', cursive;
+    color: #1B1717;
+    font-size: 4rem !important;
+}
+
+.font-curly-style_sub h1, .font-curly-style_sub h4, .font-curly-style_sub p {
+    font-family: 'Caveat', cursive;
+    color: #1B1717;
+}
+
+.font-curly-style_sub h1, .font-curly-style_sub h4, .font-curly-style_sub p {
+    font-family: 'Caveat', cursive;
+    color: #1B1717;
+}
+
+span.palasa-resorts_text {
+    font-size: larger;
+    cursor: pointer;
+    color: #1B1717;
+    background-color: #dfc8c1;
+    font-size: 36px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.9s;
+}
+
+.palasa-resorts_text:hover {
+    font-size: larger;
+    cursor: pointer;
+    background-color: #1B1717;
+    border: none;
+    color: #EEEBDD;
+    text-align: center;
+    font-size: 36px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.9s;
+}
+
+a.palasa-resorts_text::after {
+    font-size: larger;
+    cursor: pointer;
+    color: #1B1717;
+    opacity: 0.6;
+    transition: 0.9s;
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .iframely-embed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: white;
+  }
+  
+  #app {
+    /* // opacity: 0 !important; */
+    /* // visibility: hidden; */
+    z-index: 100;
+  
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-bottom: 4vmin;
+    height: 90vh;
+    width: 100%;
+    background: #ede8e2;
+    color: #3a3535;
+  }
+  
+  body {
+    display: grid;
+    padding: 3vmin;
+    background: #e6ded7;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+  
+  .title {
+    padding-left: 1em;
+    grid-column: 1 / -1;
+    grid-row: 1;
+  
+    font-family: "Prata", serif;
+    font-size: 8vw;
+    width: 100%;
+    z-index: 2;
+    color: #1B1717 !important;
+    /* letter-spacing: 10px !important; */
+  
+    /* // start */
+  
+    > .title-inner {
+      display: inline-block;
+    }
+  }
+  
+  @keyframes text-clip {
+    from {
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+  
+  @keyframes outer-left {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+  @keyframes inner-left {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+  .cafe,
+  .mozart {
+    animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+    /* // outline: 1px solid red; */
+  }
+  
+  /* // [class*='inner'] {
+  //   outline: 1px solid blue;
+  // } */
+  
+  .title-inner {
+    display: inline-block;
+    animation: inner-left 1s 1s ease both;
+  }
+  
+  .cafe-inner {
+    display: inline-block;
+    animation: inner-left 1s 1s ease both,
+      text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+  }
+  
+  .mozart-inner {
+    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+  }
+  
+  .title {
+    animation: outer-left 1s 1s ease both;
+  }
+  
+  .cafe {
+    /* // start */
+    > .cafe-inner {
+      display: inline-block;
+    }
+  }
+  
+  .mozart {
+    display: inline-block;
+  }
+  
+  .image {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: -2rem;
+    opacity: 0.7;
+  
+    animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+  
+    @keyframes image-in {
+      from {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      }
+      to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+    }
+  
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* // Replay animation! */
+  body:active * {
+    animation: none !important;
+  }
+  
