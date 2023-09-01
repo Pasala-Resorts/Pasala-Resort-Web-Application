@@ -3,14 +3,58 @@
     width: 40vw;
 }
 
-.our-offerings-image-card-home:hover{
-    opacity: 0.5;
-    transition-duration: 0.5s;
+.our-offerings-image-card-home1:hover{
+    background-color: rgb(73, 37, 37);
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 
-.our-offerings-image-card-home{
-background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693078268/RESORT_KEESARA_17_-_Photo_hiaogp.jpg');
-height:40vh;
-width: 30vw;
-margin: 50px;
+.our-offerings-image-card-home2:hover{
+    background-color: rgb(73, 37, 37);
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.our-offerings-image-card-home1{
+background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg');
+height:60vh;
+width: 100vw;
+margin-top: 3vh !important;
+margin-bottom: 3vh !important;
+margin-left: 4vh !important;
+margin-right: 3vh !important;
+}
+
+.our-offerings-image-card-home2{
+    background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg');
+    height:60vh;
+    width: 100vw;
+    margin-top: 3vh !important;
+    margin-bottom: 3vh !important;
+    margin-left: 3vh !important;
+    margin-right: 3vh !important;
+    }
+
+.card-our-offerings{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+ul{
+    list-style-type: square;
+
+}
+
+li{
+    list-style-type: square;
+    font-size: 24px;
+}
+
+.row{
+    padding: 0px !important;
 }

@@ -30,26 +30,34 @@ class OurOffrings extends Component{
         return(
             <>
             <Row>
-            <Col onMouseOver={this.enter1} onMouseLeave={this.leave1}  className="our-offerings-image-card-home">
-            {/* <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689090522/pexels-pixabay-261429_dypmif.jpg" className="our-offerings-image-home" alt="" /> */}
+            <Col onMouseOver={this.enter1} onMouseLeave={this.leave1}  className="our-offerings-image-card-home1">
            {isDisplay1 && 
-           <Col>
+           <Col className="card-our-offerings">
+            <div>
            <h1>Farm House</h1>
+           <ul>
+            <li>9 Rooms</li>
+            <li>Upto 30+ members capacity</li>
+            <li>Swimming pool</li>
+            <li>Pool Bar</li>
+            <li>Dance Floor</li>
+            <li>Projector Screening</li>
+            <li>Pantry </li>
+            <li>Camp Fire</li>
+           </ul>
+           </div>
            </Col>} 
             </Col>
-            <Col onMouseOver={this.enter2} onMouseLeave={this.leave2}  className="our-offerings-image-card-home">
-            {/* <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689090522/pexels-pixabay-261429_dypmif.jpg" className="our-offerings-image-home" alt="" /> */}
-           {isDisplay2 && <Col>hi</Col>} 
+            <Col onMouseOver={this.enter2} onMouseLeave={this.leave2}  className="our-offerings-image-card-home2">
+           {isDisplay2 && <Col><h1>Farm House</h1></Col>} 
             </Col>
         </Row>
         <Row>
-        <Col  onMouseOver={this.enter3} onMouseLeave={this.leave3} className="our-offerings-image-card-home">
-            {/* <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689090522/pexels-pixabay-261429_dypmif.jpg" className="our-offerings-image-home" alt="" /> */}
-           {isDisplay3 && <Col>hi</Col>} 
+        <Col  onMouseOver={this.enter3} onMouseLeave={this.leave3} className="our-offerings-image-card-home1">
+           {isDisplay3 && <Col><h1>Farm House</h1></Col>} 
             </Col>
-            <Col onMouseOver={this.enter4} onMouseLeave={this.leave4}  className="our-offerings-image-card-home">
-            {/* <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689090522/pexels-pixabay-261429_dypmif.jpg" className="our-offerings-image-home" alt="" /> */}
-           {isDisplay4 && <Col>hi</Col>} 
+            <Col onMouseOver={this.enter4} onMouseLeave={this.leave4}  className="our-offerings-image-card-home2">
+           {isDisplay4 && <Col><h1>Farm House</h1></Col>} 
             </Col>
         </Row>
             </>
