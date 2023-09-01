@@ -36,7 +36,7 @@ function Home() {
                 </div>
 
                 <div class="image">
-                    <img src='https://images.unsplash.com/photo-1616362355051-6a9f8c434fff?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzE0MTYzNQ&ixlib=rb-1.2.1&q=80&w=800&h=600' alt=''/>
+                    <img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693579645/CO_28_-_Photo.jpg.0_wdhrwa.jpg' className="pasala-resorts-image" alt=''/>
                 </div>
             </div>
 
@@ -65,11 +65,14 @@ function Home() {
 
                 <Container className="nature-container-home">
                 <Row></Row>
-                <Row className="text-center font-curly-style_main"><p className="font-curly-style">In Love,with Nature</p></Row>
+                <Row className="text-center font-curly-style_main">
+                    <Col><p className="font-curly-style">In Love,with Nature</p></Col></Row>
+                <Row>
                 <br/>
+                </Row>
                 <Row className="nature-home font-curly-style_sub">
                     <Col className="nature-card-home" md="3">
-                    <h1>145 Acre</h1>
+                    <h1>5 Acre</h1>
                     <h4>Gated Farm Project</h4>
                     <p>Be sure of security by being a part of biggest farm Community</p>
                     </Col>
