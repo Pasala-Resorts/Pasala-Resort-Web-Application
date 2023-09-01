@@ -17,10 +17,23 @@ Nav.Link{
 }
 
 .bg-primary-color {
-     background: #675D50 !important;  /* Primary */
+     background: #1B1717 !important;  /* Primary */
 }
 
 .btn-color {
-    background: #F3DEBA !important;
+    background: #EEEBDD !important;
     font-weight: 500;
+}
+
+.font-style__poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-style__Maven-Pro {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.font-color {
+    color: #EEEBDD !important;
+    font-weight: 200;
 }
