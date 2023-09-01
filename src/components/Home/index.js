@@ -10,6 +10,7 @@ import Col from 'react-bootstrap/Col';
 import OurOffrings from "../OurOfferings/ourOfferings";
 
 
+
 import './home.css'
 import { Container } from "react-bootstrap";
 
