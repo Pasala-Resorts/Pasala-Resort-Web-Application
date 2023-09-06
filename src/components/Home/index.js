@@ -56,7 +56,7 @@ function Home() {
                     </Col>
                     <Col md="1"></Col>
                     <Col md="5">
-                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg" alt="welcome" className="img-home" />
+                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg" alt="welcome" className="img-home" />
                     </Col>
                     <Col md="1"></Col>
                    <Row> <br/>

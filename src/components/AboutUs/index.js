@@ -30,7 +30,7 @@ const AboutUs=()=>{
                 ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.
                 </p>
                 <div className="button-container">
-                <button className="button">DISCOVER MORE</button>
+                <button className="button">BOOK NOW</button>
                 </div>
                 
           </div>
