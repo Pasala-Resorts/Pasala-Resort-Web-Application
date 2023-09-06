@@ -20,9 +20,9 @@ class Header extends Component{
                         <Nav.Link as={Link} to="/gallery" className='font-color'>Gallery</Nav.Link>
                         <Nav.Link as={Link} to="/about-us" className='font-color'>About Us</Nav.Link>
                         <Nav.Link as={Link} to="/Contact" className='font-color'>Contact</Nav.Link>
-                        {/* <Nav.Link as={Link} to="/book-now" className='font-color'><Button id='webDiv' className='btn-color text-dark font-weight-bold'>Book now</Button></Nav.Link> */}
+                        <Nav.Link as={Link} to="/book-now" className='font-color'><Button className='btn-color text-dark font-weight-bold'>Book now</Button></Nav.Link>
+                        {/* <div id="webDiv" style={{borderWidth: 0}}></div> */}
                     </Nav>
-                    <div id="webDiv" style={{borderWidth: 0}}><Button className='btn-color text-dark font-weight-bold'>Book now</Button></div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
