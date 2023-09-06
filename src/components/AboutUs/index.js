@@ -1,17 +1,25 @@
 import './aboutus.css'
+import { Row } from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 
 const AboutUs=()=>{
   return(
     <div>
+      <header className="page-header-aboutus">
+    <div className="page-title-aboutus">
+            <div className="overlay-aboutus"></div>   
+        <Container> 
+            <Row>
+                <div className="page-title-container-aboutus">
+                <h1 className="page-title-heading-aboutus">Contact Us</h1>                 
+                </div>
+            </Row>  
+        </Container>                     
+    </div>
+    </header>
     <div className="container">
       <div className="row">
-        <div className="about-image">
-          <h1 className="heading1">About Us</h1>
-        </div>
-        <div className="mid-container">
-              <h1>AboutUs-Home </h1>
-        </div>
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
               {/* Contact information content */}
                 <h5 className="pasala-heading">ABOUT PASALA RESORTS</h5>
                 <h1 className="pasala-sub">Luxury <br></br>Resorts in The Heart Of <br></br>Bhagya Nagar</h1>
@@ -31,7 +39,7 @@ const AboutUs=()=>{
                 <img
                   src="https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=2048x2048&w=is&k=20&c=hKhLRUpl6c1p_6CdUHRLTAR-UEBdR6vml7M5AtCSCL4="
                   alt=""
-                  className="flex-image"
+                  className="col-12 mb-3 flex-image"
                 />
                 
           </div>

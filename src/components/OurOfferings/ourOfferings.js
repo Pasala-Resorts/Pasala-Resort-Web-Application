@@ -116,7 +116,7 @@ class OurOffrings extends Component{
 <Col md="1"></Col>
 </Row>
 </div> */}
-<Row>
+<Row className="mb-md-5">
     <Col md="1"></Col>
     <Col md="5">
     <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
@@ -133,7 +133,7 @@ class OurOffrings extends Component{
             {/* <h4>Camp Fire</h4> */}
             <br/>
             <Button  style={
-                {border:"1px solid black",color:"black"}
+                {border:"1px solid black",color:"#1B1717"}
             } className="bg-transparent">Book Now</Button>
     </Col>
     <Col md="1"></Col>

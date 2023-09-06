@@ -25,6 +25,25 @@ Nav.Link{
     font-weight: 500;
 }
 
+.nav-bar-class{
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    margin-left: 10vw !important;
+}
+
+@media screen and (max-width:768px) {
+    .nav-bar-class{
+        margin-left:0px !important;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-around !important;
+        margin-left: 10vw !important;
+    }
+}
+
 .font-style__poppins {
     font-family: 'Poppins', sans-serif;
 }

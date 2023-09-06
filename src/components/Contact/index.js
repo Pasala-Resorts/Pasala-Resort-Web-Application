@@ -17,12 +17,12 @@ const Contact = () => {
         </Container>                     
     </div>
     </header>
-         <section class="contact-sec sec-pad">
+         <section style={{padding:"2vh",backgroundColor:"#e9dfd7"}} class="contact-sec sec-pad">
  <div class="container">
    <div class="row">
      <div class="col-md-6">
        <div class="contact-detail">
-         <h1 class="section-title">Contact us</h1>
+         <h1 class="section-title" style={{color:"#1B1717"}}>Contact us</h1>
 
          <ul class="contact-ul">
            <li><i class="fa fa-location-dot"></i> 91, Ram Nagar, Ram Mandir, Delhi</li>
@@ -71,22 +71,12 @@ const Contact = () => {
            </div>
 
            <div class="col-12">
-             <button type='button' class="inptBtn">Submit</button>
+             <button type='button' style={{ backgroundColor: '#EEEBDD',color:"#1B1717"}} class="inptBtn">Submit</button>
            </div>
          </div>
        </form>
      </div>
    </div>
-
-   <div >
-     <p> Copyright &copy;
-       <script>
-         document.write(new Date().getFullYear());
-       </script>
-       All rights reserved | Ajeet
-     </p>
-   </div>
-
  </div>
 </section>
 </div>    )}
