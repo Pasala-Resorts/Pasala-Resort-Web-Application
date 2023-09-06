@@ -12,6 +12,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import WebEngineComponent from './components/BackendPlugIn'
 
 const App = () => (
   <BrowserRouter>
@@ -21,6 +22,7 @@ const App = () => (
       <Route exact path="/gallery" component={Gallery} />
       <Route exact path="/about-us" component={AboutUs} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/book-now" component={WebEngineComponent} />
       <Route component={NotFound} />
       </Switch>
     <Footer />
