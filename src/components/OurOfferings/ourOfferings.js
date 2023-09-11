@@ -119,7 +119,7 @@ class OurOffrings extends Component{
 <Row className="mb-md-5">
     <Col md="1"></Col>
     <Col md="5">
-    <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
+    <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1694443367/app_23_-_Photo.jpg.0_wif4bv.jpg" alt="" />
     </Col>
     <Col className="text-center" md="5">
     <h1 className="farm-house-heading">Farm House</h1>
@@ -146,12 +146,12 @@ class OurOffrings extends Component{
     <Col md="1"></Col>
     <Col className="text-center" md="5">
         <h1 className="farm-house-heading">Party lawn</h1>
-        <h4>9 Rooms</h4>
-            <h4>Upto 30+ members capacity</h4>
-            <h4>Swimming pool</h4>
-            <h4>Pool Bar</h4>
-            <h4>Dance Floor</h4>
-            <h4>Projector Screening</h4>
+        
+            <h4>Upto 200+ members capacity</h4>
+            <h4>For outdoor events</h4>
+            <h4>Big and Spacious</h4>
+            <h4>Dining Area</h4>
+            <h4>Event Management</h4>
             <h4>Pantry </h4>
             {/* <h4>Camp Fire</h4> */}
             <br/>
