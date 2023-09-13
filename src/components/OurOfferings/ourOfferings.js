@@ -116,9 +116,9 @@ class OurOffrings extends Component{
 <Col md="1"></Col>
 </Row>
 </div> */}
-<Row className="mb-md-5">
+<Row className="mb-md-5 farm-house-heading pb-4" style={{padding:0}}>
     <Col md="1"></Col>
-    <Col md="5">
+    <Col md="5" className="farm-house-container">
     <img className="our-offerings-image" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
     </Col>
     <Col className="text-center" md="5">
@@ -138,10 +138,7 @@ class OurOffrings extends Component{
     </Col>
     <Col md="1"></Col>
 </Row>
-<Row>
 <br/>
-<br/>
-</Row>
 <Row>
     <Col md="1"></Col>
     <Col className="text-center" md="5">

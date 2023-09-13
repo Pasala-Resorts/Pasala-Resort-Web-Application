@@ -1,6 +1,10 @@
+import { Component } from "react"
 
-const BackendPlugIn =()=>{
+class BackendPlugIn extends Component{
+
+ render(){   
 return(<div id="webDiv" style={{borderWidth: 0}}></div>)
+}
 }
 
 export default BackendPlugIn
