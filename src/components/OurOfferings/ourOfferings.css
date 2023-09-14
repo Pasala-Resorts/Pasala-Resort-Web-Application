@@ -21,6 +21,13 @@ overflow: hidden;
     transition-duration: 1s;
 }
 
+@media screen and (max-width:540px) {
+  .farm-house-container{
+    padding: 0 !important;
+  }
+  
+}
+
 .our-offerings-image-card-home1{
 background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg');
 height:60vh;

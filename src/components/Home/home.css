@@ -9,6 +9,24 @@
     
 }
 
+@media screen and (max-width:540px) {
+  .home-title-pasala-resort{
+height: 40vh !important;
+  }
+
+  .img-home{
+    height: 50vh !important;
+    width: 100vw !important;
+}
+
+.pasala-resorts-image{
+  height: 40vh;
+  width: 100vw;
+}
+}
+
+
+
 .heading{
     color:greenyellow;
     font-weight: 400;
@@ -158,7 +176,7 @@ a.palasa-resorts_text::after {
   @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
   
   .title {
-    padding-left: .7em;
+    padding-left: 4vw;
     grid-column: 1 / -1;
     grid-row: 1;
   

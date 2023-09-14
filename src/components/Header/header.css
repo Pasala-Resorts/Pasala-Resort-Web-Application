@@ -25,8 +25,17 @@ Nav.Link{
     font-weight: 500;
 }
 
+@media screen and (min-width:1200px) {
+    .nav-bar-class{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        margin-left: 0vw !important;
+    }
+    
+}
+
 .nav-bar-class{
-    margin: 0 !important;
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-around !important;

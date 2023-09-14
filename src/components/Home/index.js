@@ -24,7 +24,7 @@ function Home() {
            <div>
             {/* <div class="iframe-embed" style={{left: 0, width: "100%", height: 0, position: 'relative', paddingBottom: '75%'}} ><iframe title="unique-map" src="https://dribbble.com/shots/15379368-Quick-Animation-Experiment/player" style={{border: 0, top: 0, left: 0, width: '100%', height: '100%', position: 'absolute'}} allowfullscreen allow="encrypted-media"></iframe></div> */}
 
-            <div id="app">
+            <div id="app" className="home-title-pasala-resort">
                 <div class="title">
                     <div class="title-inner">
                         <div class="cafe">
@@ -48,15 +48,15 @@ function Home() {
                <Row><br/><br/><br/></Row>
                     <Col md="1"></Col>
                     <Col md="4" className="description-home">
-                        <div className="description">
-                            <p className='heading font-curly-style_welcome'>Welcome</p>
+                        <div className="description p-4">
+                            <h1 className=' font-curly-style_welcome'>Welcome</h1>
                             <p className="font-style_desc">Here, at <span className="palasa-resorts_text"> Pasala Resorts  </span>  we take the meaning of luxury, comfort and service to an entirely different level.  Accommodation and services which is unmatched in our urban jungle.</p> 
                             <p className="font-style_desc"> Experience the nature and enlivening yourself with memories that will stay long for a lifetime!</p>
                         </div>
                     </Col>
                     <Col md="1"></Col>
                     <Col md="5">
-                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg" alt="welcome" className="img-home" />
+                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg" alt="welcome" className="img-home m-md-5" />
                     </Col>
                     <Col md="1"></Col>
                    <Row> <br/>

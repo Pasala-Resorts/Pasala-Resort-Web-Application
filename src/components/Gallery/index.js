@@ -40,7 +40,7 @@ const images = [
   ];
 
 const Gallery=()=>{
-    return <ImageGallery items={images} />
+    return <div style={{width:'100vw'}}><ImageGallery  items={images} /></div>
 }
 
 export default Gallery
