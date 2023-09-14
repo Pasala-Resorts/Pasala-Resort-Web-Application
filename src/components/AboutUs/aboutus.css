@@ -71,7 +71,7 @@ body {
 }
 
 .flex-image {
-  max-width: 60vw !important; /* Make sure the image doesn't exceed its container's width */
+  max-width: 94vw !important; /* Make sure the image doesn't exceed its container's width */
   height: 60vh; /* Maintain the aspect ratio of the image */
   display: block; /* Prevents unwanted spacing below images */
   margin-top: 25px;

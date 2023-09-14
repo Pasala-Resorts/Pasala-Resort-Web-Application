@@ -25,25 +25,25 @@ const Contact = () => {
          <h1 class="section-title" style={{color:"#1B1717"}}>Contact us</h1>
 
          <ul class="contact-ul">
-           <li><i class="fa fa-location-dot"></i> 91, Ram Nagar, Ram Mandir, Delhi</li>
+           <li><i class="fa fa-location-dot"></i> keasara,Hyderabad,Telanagana</li>
 
            <li>
              <i class="fa fa-phone"></i>
-             <a href="tel:08510004495"><b>0255000XXXX</b></a>,
-             <a href="tel:08510005495"><b>0251600XXXX</b></a>
+             <a href="tel:08510004495"><b>7077634488</b></a>,
+             <a href="tel:08510005495"><b>9666382837</b></a>
            </li>
 
            <li>
              <i class="fa-solid fa-envelope"></i>
-             <a href="mailto:pardeepkumar4bjp@gmail.com"><b> demounknown@gmail.com</b></a>
+             <a href="mailto:pardeepkumar4bjp@gmail.com"><b> info@pasalaresorts.com</b></a>
            </li>
          </ul>
 
-         <span>
+         {/* <span>
            <a href="/" class="fb"><i class="fa-brands fa-facebook"></i></a>
            <a href="/" class="insta"><i class="fa-brands fa-instagram"></i></a>
            <a href="/" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-         </span>
+         </span> */}
        </div>
      </div>
 

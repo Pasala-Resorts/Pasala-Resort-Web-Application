@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import './footer.css'
 
 const Footer=()=>{
-    return( <MDBFooter style={{backgroundColor:"#1B1717"}} data-aos="zoom-in"  className=' background-color text-center text-lg-start text-muted'>
+    return( <MDBFooter style={{backgroundColor:"#1B1717"}}  className=' background-color text-center text-lg-start text-muted'>
     <section className='font-color d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
       <div className='me-5 d-none d-lg-block'>
         <span>Get connected with us on social networks:</span>
@@ -38,11 +38,11 @@ const Footer=()=>{
           <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>
               <MDBIcon icon="gem" className="me-3" />
-              Company name
+              Pasala Resorts
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit.
+              Pasala resorts offers you Peaceful Farm house,1 hour far from city ,
+              very near to nature.
             </p>
           </MDBCol>
 

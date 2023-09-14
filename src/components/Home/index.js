@@ -90,7 +90,7 @@ function Home() {
                     <Col className="nature-card-home" md="3">
                     <h1>20+</h1>
                     <h4>Luxury Amenities</h4>
-                    <p>20+ Luxury amenities which no other farm Project offers. Yes, we bet on it.</p>
+                    <p>20+ Luxury amenities which no other farm Project offers.</p>
                     </Col>
                 </Row>
             </Container>

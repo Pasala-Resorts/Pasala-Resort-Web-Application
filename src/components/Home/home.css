@@ -18,6 +18,11 @@ height: 40vh !important;
     height: 50vh !important;
     width: 100vw !important;
 }
+
+.pasala-resorts-image{
+  height: 40vh;
+  width: 100vw;
+}
 }
 
 
@@ -82,7 +87,7 @@ margin-left: 0px !important;
     font-family: 'Caveat', cursive;
     color: #1B1717;
     font-size: 4rem !important;
-}
+    }
 
 .font-curly-style_sub h1, .font-curly-style_sub h4, .font-curly-style_sub p {
     font-family: 'Caveat', cursive;
@@ -146,9 +151,9 @@ a.palasa-resorts_text::after {
     /* // visibility: hidden; */
     z-index: 100;
   
-    &:hover {
+    /* &:hover {
       opacity: 0.9;
-    }
+    } */
   }
   
   #app {
