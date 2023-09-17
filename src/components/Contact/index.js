@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='mt-6'>
       <header className="page-header-aboutus">
     <div className="page-title-aboutus">
             <div className="overlay-aboutus"></div>   

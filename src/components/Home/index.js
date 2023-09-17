@@ -20,11 +20,11 @@ function Home() {
         AOS.refresh();
     }, []);
     return (
-        <div>
+        <div className="mt-5">
            <div>
             {/* <div class="iframe-embed" style={{left: 0, width: "100%", height: 0, position: 'relative', paddingBottom: '75%'}} ><iframe title="unique-map" src="https://dribbble.com/shots/15379368-Quick-Animation-Experiment/player" style={{border: 0, top: 0, left: 0, width: '100%', height: '100%', position: 'absolute'}} allowfullscreen allow="encrypted-media"></iframe></div> */}
 
-            <div id="app" className="home-title-pasala-resort">
+            <div id="app" className="home-background-image">
                 <div class="title">
                     <div class="title-inner">
                         <div class="cafe">
@@ -36,9 +36,9 @@ function Home() {
                     </div>
                 </div>
 
-                <div class="image">
+                {/* <div class="image">
                     <img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693579645/CO_28_-_Photo.jpg.0_wdhrwa.jpg' className="pasala-resorts-image" alt=''/>
-                </div>
+                </div> */}
             </div>
 
             {/* <a href="https://youtu.be/mBY62jtbMYM" data-keyframers-credit style={{color: '#000'}}></a> */}

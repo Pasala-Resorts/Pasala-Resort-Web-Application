@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap'
 
 const AboutUs=()=>{
   return(
-    <div>
+    <div className='mt-5'>
       <header className="page-header-aboutus">
     <div className="page-title-aboutus">
             <div className="overlay-aboutus"></div>   
@@ -30,7 +30,6 @@ const AboutUs=()=>{
                 <div className="button-container">
                 <button className="button">BOOK NOW</button>
                 </div>
-                
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-out-left">
                 {/* Image content */}
@@ -122,10 +121,6 @@ const AboutUs=()=>{
         </div>
       </div>
     </div>
-
-    
-    
-
 </div>
 </div>
 </div>

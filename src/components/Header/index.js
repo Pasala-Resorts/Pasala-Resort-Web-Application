@@ -10,7 +10,7 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 class Header extends Component{
     render(){
         return(
-            <Navbar  expand="lg" className="bg-primary-color font-style__Maven-Pro">
+            <Navbar  expand="lg" className="bg-primary-color font-style__Maven-Pro p-3" fixed="top">
                 <Container className='navbar-main'>
                     <Navbar.Brand href="/"><img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693213313/logo_1_lszeve.png' alt="logo" className='img-logo'/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"><i style={{color:"#fff"}} class="bi-list"></i></Navbar.Toggle>
