@@ -19,7 +19,7 @@ const AboutUs=()=>{
     </header>
     <div className="container">
       <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 mt-3"data-aos="zoom-out-right">
+          <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
               {/* Contact information content */}
                 <h5 className="pasala-heading">ABOUT PASALA RESORTS</h5>
                 <h1 className="pasala-sub">Luxury <br></br>Resorts in The Heart Of <br></br>Hyderabad</h1>
@@ -31,7 +31,7 @@ const AboutUs=()=>{
                 <button className="button">BOOK NOW</button>
                 </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-out-left">
+          <div className="col-lg-6 col-md-6 col-sm-12">
                 {/* Image content */}
                 <img
                   src="https://res.cloudinary.com/dobpvkjao/image/upload/v1694441916/C_18_-_Photo.jpg.2_twncrs.jpg"
@@ -43,7 +43,7 @@ const AboutUs=()=>{
           
       </div>
 </div>
-<div class="bottom-container"data-aos="fade-up">
+<div class="bottom-container">
   <h5 className="section-heading-title-small">DISCOVER</h5>
   <h1 className="bottom-headin">Our Best Amenities</h1>
   <p className="bottom-paragraph"></p>
