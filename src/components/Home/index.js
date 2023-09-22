@@ -20,18 +20,18 @@ function Home() {
         AOS.refresh();
     }, []);
     return (
-        <div className="mt-5">
+        <div style={{marginTop:'8vh',width:'100vw'}}>
            <div>
             {/* <div class="iframe-embed" style={{left: 0, width: "100%", height: 0, position: 'relative', paddingBottom: '75%'}} ><iframe title="unique-map" src="https://dribbble.com/shots/15379368-Quick-Animation-Experiment/player" style={{border: 0, top: 0, left: 0, width: '100%', height: '100%', position: 'absolute'}} allowfullscreen allow="encrypted-media"></iframe></div> */}
 
             <div id="app" className="home-background-image">
-                <div class="title">
-                    <div class="title-inner">
-                        <div class="cafe">
-                            <div class="cafe-inner">Pasala</div>
+                <div className="title">
+                    <div className="title-inner">
+                        <div className="cafe">
+                            <div className="cafe-inner">Pasala</div>
                         </div>
-                        <div class="mozart">
-                            <div class="mozart-inner">Resorts</div>
+                        <div className="mozart">
+                            <div className="mozart-inner">Resorts</div>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function Home() {
                     <Col md="5">
                         <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg" alt="welcome" className="img-home m-md-5" />
                     </Col>
-                    <Col md="1"></Col>
+<Col md="1"></Col>
                    <Row> <br/>
                 <br/>
                 <br/> </Row>
@@ -95,115 +95,52 @@ function Home() {
                 </Row>
             </Container>
             <div className="our-offrings-background">
-            <br/>
-                <br/>
-            <h1 className='heading font-curly-style_our_offerings'>Our Offerings</h1>
-            <br/>
-            <br/>
-            {/* <Row data-aos="flip-up">
-                <Col md="2"></Col>
-                <Col md="2">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693079407/RESORT_KEESARA_17_-_Photo.jpg.0_rrztli.jpg" />
-                    <Card.Body>
-                        <Card.Title>Farm House</Card.Title>
-                        <Card.Text>
-                            Farm house with swiming pool and good ameneties.
-
-                        </Card.Text>
-                        <br/>
-                        <Button variant="primary">Book Now </Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col md="1"></Col>
-                <Col md="2">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg" />
-                    <Card.Body>
-                        <Card.Title>Party Lawn</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Book Now  </Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col md="1"></Col>
-                <Col md="2">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_13_-_Photo_uggwdv.jpg" />
-                    <Card.Body>
-                        <Card.Title>Single Cottages </Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Book Now </Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col md="2"></Col>
-            </Row>
-            <br/>
-            <Row data-aos="flip-down">
-                <Col md="2"></Col>
-                <Col md="2">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689871596/commercial-kitchen-layout-design-for-restaurants-thumbnail_xqg1oj.jpg" />
-                    <Card.Body>
-                        <Card.Title>Kitchen</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Opening Soon...</Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col md="1"></Col>
-                <Col md="2">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693155560/group_16_-_Photo_g8guf3.jpg" />
-                    <Card.Body>
-                        <Card.Title>Covenction Hall </Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Opening Soon...</Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col md="1"></Col>
-                <Col md="2">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1689090522/pexels-pixabay-261429_dypmif.jpg" />
-                    <Card.Body>
-                        <Card.Title>Adventure Park </Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Opening Soon...</Button>
-                    </Card.Body>
-                </Card>
-                </Col>
-                <Col md="2"></Col>
-            </Row> */}
-            <Row>
               <OurOffrings /> 
-            </Row>
-            <br/>
-            <br/>
+              {/* <h1 className="text-center pt-3">Our Offerings</h1>
+            <div className="our-offerings-farm-house">
+                <div className="col-md-6">
+                    <img className="our-offerings-image m-4" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
+                </div>
+                <div className="col-md-6 text-center">
+                    <h2 className="farm-house-heading mt-4">Party lawn</h2>
+                    <h5>Upto 200+ members capacity</h5>
+                    <h5>For outdoor events</h5>
+                    <h5>Big and Spacious</h5>
+                    <h5>Dining Area</h5>
+                    <h5>Event Management</h5>
+                    <h5>Pantry </h5>
+                    <button type="button" style={
+                            {border:"1px solid #1B1717",color:"#1B1717"}
+                        } className="btn bg-transparent">Book Now</button>
+                </div>
             </div>
+            <div className="our-offerings-farm-house">
+                <div className="col-md-6 d-md-none">
+                    <img className="our-offerings-image m-4" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
+                </div>
+                <div className="col-md--6 text-center">
+                    <h2 className="farm-house-heading mt-4">Party lawn</h2>
+                    <h5>Upto 200+ members capacity</h5>
+                    <h5>For outdoor events</h5>
+                    <h5>Big and Spacious</h5>
+                    <h5>Dining Area</h5>
+                    <h5>Event Management</h5>
+                    <h5>Pantry </h5>
+                    <button type="button" style={
+                            {border:"1px solid #1B1717",color:"#1B1717"}
+                        } className="btn bg-transparent">Book Now</button>
+                </div>
+                <div className="col-md-6 d-none d-md-block">
+                    <img className="our-offerings-image m-4" src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg" alt="" />
+                </div>
+            </div> */}
+              </div>
             <div data-aos="fade-up" className='map'>
             <iframe title='Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121781.57558034034!2d78.52197075602248!3d17.475299273581026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb7913fd7a5223%3A0x1f91fe79c6acffdb!2sPASALA%20RESORTS!5e0!3m2!1sen!2sin!4v1693082106166!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        
     )
 }
 
 export default Home
+

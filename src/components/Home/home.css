@@ -27,7 +27,6 @@ height: 40vh !important;
 }
 
 .heading{
-    color:greenyellow;
     font-weight: 400;
     text-align: center;
 }
@@ -39,6 +38,8 @@ height: 40vh !important;
 
 .description-container-home{
     background-color: #EEEBDD;
+    display: flex;
+    flex-direction: row;
 }
 
 .map{
@@ -316,3 +317,15 @@ a.palasa-resorts_text::after {
     background-color:#ede8e2 !important;
 }
   
+.our-offerings-image{
+  width: 40vw;
+}
+
+.our-offerings-farm-house{
+  display: flex;
+  flex-direction: row;
+}
+
+.row{
+  --mdb-gutter-x: 0 !important;
+}

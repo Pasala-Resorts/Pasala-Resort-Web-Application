@@ -1,6 +1,8 @@
 import { Component } from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {Link} from 'react-router-dom'
+
 
 import './ourOfferings.css'
 import{ Button }from "react-bootstrap";
@@ -27,9 +29,9 @@ class OurOffrings extends Component{
             <h4>Pantry </h4>
             {/* <h4>Camp Fire</h4> */}
             <br/>
-            <Button  style={
-                {border:"1px solid black",color:"#1B1717"}
-            } className="bg-transparent">Book Now</Button>
+            <Link to="/book-now" className='font-color'><Button  style={
+                {border:"1px solid #1B1717",color:"#1B1717"}
+            } className="bg-transparent">Book Now</Button></Link>
     </Col>
     <Col md="1"></Col>
 </Row>
@@ -50,9 +52,9 @@ class OurOffrings extends Component{
             <h4>Pantry </h4>
             {/* <h4>Camp Fire</h4> */}
             <br/>
-            <Button  style={
+            <Link to="/book-now" className='font-color'><Button  style={
                 {border:"1px solid #1B1717",color:"#1B1717"}
-            } className="bg-transparent">Book Now</Button>
+            } className="bg-transparent">Book Now</Button></Link>
             <br/>
     </Col>
     <Col md="5" className="d-none d-md-block" style={{padding:0}}>
