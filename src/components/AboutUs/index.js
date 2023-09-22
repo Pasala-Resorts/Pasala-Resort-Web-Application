@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap'
 
 const AboutUs=()=>{
   return(
-    <div className='mt-5'>
+    <div style={{marginTop:'8vh'}}>
       <header className="page-header-aboutus">
     <div className="page-title-aboutus">
             <div className="overlay-aboutus"></div>   

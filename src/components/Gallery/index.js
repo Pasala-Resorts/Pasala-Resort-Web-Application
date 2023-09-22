@@ -40,7 +40,7 @@ const images = [
   ];
 
 const Gallery=()=>{
-    return <div className="mt-5" style={{width:'100vw'}}><ImageGallery  items={images} /></div>
+    return <div style={{marginTop:'8vh',width:'100vw'}}><ImageGallery  items={images} /></div>
 }
 
 export default Gallery

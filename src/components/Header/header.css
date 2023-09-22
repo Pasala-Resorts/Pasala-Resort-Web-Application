@@ -16,6 +16,10 @@ Nav.Link{
     height: 60px;
 }
 
+.is-display{
+    display: none !important;
+}
+
 .bg-primary-color {
      background: #1B1717 !important;  /* Primary */
 }
