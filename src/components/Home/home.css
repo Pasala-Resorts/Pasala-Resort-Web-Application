@@ -1,7 +1,15 @@
-.home-main-image{
-    background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693079407/RESORT_KEESARA_17_-_Photo.jpg.0_rrztli.jpg');
-    height: 100vh;
+.home-main-image-slideshow {
+  height: 100vh;
+  animation: slideshow 15s infinite; /* Change image every 15 seconds */
 }
+
+@keyframes slideshow {
+  0%, 100% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650121/r2_47_-_Photo_vek2db.jpg'); }
+  25% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650120/r2_41_-_Photo_fvifoj.jpg'); } /* Replace with your second image URL */
+  50% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650119/r1_38_-_Photo_hoa3cu.jpg'); } /* Replace with your third image URL */
+  75% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650117/r3_54_-_Photo_vsuzi1.jpg'); } /* Replace with your fourth image URL */
+}
+
 
 .description{
     text-align: center;

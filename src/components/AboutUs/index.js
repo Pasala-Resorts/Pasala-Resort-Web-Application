@@ -1,8 +1,16 @@
 import './aboutus.css'
-import { Row } from 'react-bootstrap'
-import {Container} from 'react-bootstrap'
+import {useHistory} from 'react-router-dom'
+import {Container,Nav,Row} from 'react-bootstrap'
 
 const AboutUs=()=>{
+  const history = useHistory();
+    const handleViewAll = () => {
+          history.push({
+            pathname: '/book-now',
+            state: { bookingPage:true }
+          });
+        }
+
   return(
     <div style={{marginTop:'8vh'}}>
       <header className="page-header-aboutus">
@@ -28,7 +36,9 @@ const AboutUs=()=>{
                 Step into the world of luxury as you check into our pool access rooms, Picture yourself lounging by the water's edge, sipping on a delicious cocktail from our pool bar while basking in the warm sun.
                 </p>
                 <div className="button-container">
-                <button className="button">BOOK NOW</button>
+                <button onClick={() => {
+              handleViewAll();
+            }} className='button'>Book now</button>
                 </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">

@@ -8,13 +8,24 @@ import Col from 'react-bootstrap/Col';
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 import OurOffrings from "../OurOfferings/ourOfferings";
-
-
-
 import './home.css'
 import { Container } from "react-bootstrap";
 
-function Home() {
+
+
+const Home=()=> {
+    function preloadImages() {
+        const imageUrls = [
+            'https://res.cloudinary.com/dobpvkjao/image/upload/v1695650120/r2_41_-_Photo_fvifoj.jpg', // Replace with your image URLs
+            'https://res.cloudinary.com/dobpvkjao/image/upload/v1695650119/r1_38_-_Photo_hoa3cu.jpg',
+            'https://res.cloudinary.com/dobpvkjao/image/upload/v1695650117/r3_54_-_Photo_vsuzi1.jpg',
+        ];
+    
+        for (const imageUrl of imageUrls) {
+            new Image().src = imageUrl;
+        }
+    }
+    preloadImages();
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -24,7 +35,7 @@ function Home() {
            <div>
             {/* <div class="iframe-embed" style={{left: 0, width: "100%", height: 0, position: 'relative', paddingBottom: '75%'}} ><iframe title="unique-map" src="https://dribbble.com/shots/15379368-Quick-Animation-Experiment/player" style={{border: 0, top: 0, left: 0, width: '100%', height: '100%', position: 'absolute'}} allowfullscreen allow="encrypted-media"></iframe></div> */}
 
-            <div id="app" className="home-background-image">
+            <div id="app" class="home-main-image-slideshow">
                 <div class="title">
                     <div class="title-inner">
                         <div class="cafe">
@@ -35,11 +46,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
-                {/* <div class="image">
-                    <img src='https://res.cloudinary.com/dobpvkjao/image/upload/v1693579645/CO_28_-_Photo.jpg.0_wdhrwa.jpg' className="pasala-resorts-image" alt=''/>
-                </div> */}
             </div>
+
 
             {/* <a href="https://youtu.be/mBY62jtbMYM" data-keyframers-credit style={{color: '#000'}}></a> */}
             {/* <script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script> */}
@@ -55,7 +63,7 @@ function Home() {
                     </Col>
                     <Col md="1"></Col>
                     <Col md="5">
-                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1693504313/web_11_-_Photo_mjtyom.jpg" alt="welcome" className="img-home m-md-5" />
+                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1695649719/r2_49_-_Photo_eokimh.jpg" alt="welcome" className="img-home m-md-5" />
                     </Col>
                     <Col md="1"></Col>
                    <Row> <br/>
@@ -201,5 +209,8 @@ function Home() {
         
     )
 }
+
+
+
 
 export default Home

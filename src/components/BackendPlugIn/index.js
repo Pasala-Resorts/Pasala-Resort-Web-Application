@@ -1,10 +1,16 @@
-import { Component } from "react"
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 
-class BackendPlugIn extends Component{
+const BackendPlugIn = () => {
+  const location = useLocation();
+  const isRenderBP = location?.state?.bookingPage;
 
- render(){   
-return(<div id="webDiv" style={{borderWidth: 0,marginTop:'10vh'}}></div>)
-}
-}
+  return isRenderBP ? (
+    <iframe
+      title='Third Party Screen'
+      src='https://77409.staygrid.com/webreservation/index/index/hidHotelIdWebOut/QV5TX0ZSczM0Xzc3NDA5X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfNzc0MDlfaGdmaF9nXmQ4NTQ=/hidLanguageId/1/'
+    />
+  ) : null;
+};
 
-export default BackendPlugIn
+export default BackendPlugIn;

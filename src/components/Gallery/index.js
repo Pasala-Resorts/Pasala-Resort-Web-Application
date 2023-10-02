@@ -33,10 +33,6 @@ const images = [
         original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg",
         thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155545/1_11_-_Photo_1_pc7fjn.jpg",
       },
-      {
-        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155543/CONVO_HA_br6kfh.jpg",
-        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1693155543/CONVO_HA_br6kfh.jpg",
-      },
   ];
 
 const Gallery=()=>{
