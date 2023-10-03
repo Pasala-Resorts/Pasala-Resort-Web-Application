@@ -134,9 +134,19 @@ h1{
   .farm-house-heading{
     font-family: 'Caveat', cursive;
     color: #1B1717;
+    background-color: #ede8e2;
   }
 
   h4{
     font-family: 'Maven Pro', sans-serif;
     color: #1B1717;
   }
+
+  .our-offrings-background{
+    background-color:#ede8e2 !important;
+}
+  
+
+.row{
+  --mdb-gutter-x: 0 !important;
+}

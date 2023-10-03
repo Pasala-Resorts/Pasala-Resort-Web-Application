@@ -1,10 +1,18 @@
 import './aboutus.css'
-import { Row } from 'react-bootstrap'
-import {Container} from 'react-bootstrap'
+import {useHistory} from 'react-router-dom'
+import {Container,Nav,Row} from 'react-bootstrap'
 
 const AboutUs=()=>{
+  const history = useHistory();
+    const handleViewAll = () => {
+          history.push({
+            pathname: '/book-now',
+            state: { bookingPage:true }
+          });
+        }
+
   return(
-    <div>
+    <div style={{marginTop:'8vh'}}>
       <header className="page-header-aboutus">
     <div className="page-title-aboutus">
             <div className="overlay-aboutus"></div>   
@@ -19,7 +27,7 @@ const AboutUs=()=>{
     </header>
     <div className="container">
       <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 mt-3"data-aos="zoom-out-right">
+          <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
               {/* Contact information content */}
                 <h5 className="pasala-heading">ABOUT PASALA RESORTS</h5>
                 <h1 className="pasala-sub">Luxury <br></br>Resorts in The Heart Of <br></br>Hyderabad</h1>
@@ -28,11 +36,12 @@ const AboutUs=()=>{
                 Step into the world of luxury as you check into our pool access rooms, Picture yourself lounging by the water's edge, sipping on a delicious cocktail from our pool bar while basking in the warm sun.
                 </p>
                 <div className="button-container">
-                <button className="button">BOOK NOW</button>
+                <button onClick={() => {
+              handleViewAll();
+            }} className='button'>Book now</button>
                 </div>
-                
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-out-left">
+          <div className="col-lg-6 col-md-6 col-sm-12">
                 {/* Image content */}
                 <img
                   src="https://res.cloudinary.com/dobpvkjao/image/upload/v1694441916/C_18_-_Photo.jpg.2_twncrs.jpg"
@@ -44,7 +53,7 @@ const AboutUs=()=>{
           
       </div>
 </div>
-<div class="bottom-container"data-aos="fade-up">
+<div class="bottom-container">
   <h5 className="section-heading-title-small">DISCOVER</h5>
   <h1 className="bottom-headin">Our Best Amenities</h1>
   <p className="bottom-paragraph"></p>
@@ -122,10 +131,6 @@ const AboutUs=()=>{
         </div>
       </div>
     </div>
-
-    
-    
-
 </div>
 </div>
 </div>

@@ -1,7 +1,15 @@
-.home-main-image{
-    background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693079407/RESORT_KEESARA_17_-_Photo.jpg.0_rrztli.jpg');
-    height: 100vh;
+.home-main-image-slideshow {
+  height: 100vh;
+  animation: slideshow 15s infinite; /* Change image every 15 seconds */
 }
+
+@keyframes slideshow {
+  0%, 100% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650121/r2_47_-_Photo_vek2db.jpg'); }
+  25% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650120/r2_41_-_Photo_fvifoj.jpg'); } /* Replace with your second image URL */
+  50% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650119/r1_38_-_Photo_hoa3cu.jpg'); } /* Replace with your third image URL */
+  75% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650117/r3_54_-_Photo_vsuzi1.jpg'); } /* Replace with your fourth image URL */
+}
+
 
 .description{
     text-align: center;
@@ -9,8 +17,9 @@
     
 }
 
+
 @media screen and (max-width:540px) {
-  .home-title-pasala-resort{
+  #app{
 height: 40vh !important;
   }
 
@@ -25,10 +34,7 @@ height: 40vh !important;
 }
 }
 
-
-
 .heading{
-    color:greenyellow;
     font-weight: 400;
     text-align: center;
 }
@@ -40,6 +46,8 @@ height: 40vh !important;
 
 .description-container-home{
     background-color: #EEEBDD;
+    display: flex;
+    flex-direction: row;
 }
 
 .map{
@@ -163,8 +171,20 @@ a.palasa-resorts_text::after {
     padding-bottom: 4vmin;
     height: 90vh;
     width: 100%;
-    background: #ede8e2;
+    /* background: #ede8e2; */
     color: #3a3535;
+    background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693579645/CO_28_-_Photo.jpg.0_wdhrwa.jpg');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
   }
   
   body {
@@ -305,3 +325,15 @@ a.palasa-resorts_text::after {
     background-color:#ede8e2 !important;
 }
   
+.our-offerings-image{
+  width: 40vw;
+}
+
+.our-offerings-farm-house{
+  display: flex;
+  flex-direction: row;
+}
+
+.row{
+  --mdb-gutter-x: 0 !important;
+}

@@ -16,6 +16,10 @@ Nav.Link{
     height: 60px;
 }
 
+.is-display{
+    display: none !important;
+}
+
 .bg-primary-color {
      background: #1B1717 !important;  /* Primary */
 }
@@ -65,3 +69,15 @@ Nav.Link{
     color: #EEEBDD !important;
     font-weight: 200;
 }
+
+.nav-bar-class .font-color {
+    color: #000; /* Default text color */
+    text-decoration: none; /* Remove default underline */
+    transition: text-decoration 0.3s ease-in-out; /* Add a smooth transition effect for text-decoration */
+  }
+  
+  .nav-bar-class .font-color:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  
