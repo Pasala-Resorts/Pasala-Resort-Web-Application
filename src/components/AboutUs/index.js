@@ -44,7 +44,7 @@ const AboutUs=()=>{
           <div className="col-lg-6 col-md-6 col-sm-12">
                 {/* Image content */}
                 <img
-                  src="https://res.cloudinary.com/dobpvkjao/image/upload/v1694441916/C_18_-_Photo.jpg.2_twncrs.jpg"
+                  src="https://res.cloudinary.com/dobpvkjao/image/upload/v1696515050/group_cottages_18_-_Photo_1_h7ixqh.jpg"
                   alt=""
                   className="col-12 mb-3 flex-image"
                 />
