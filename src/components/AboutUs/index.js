@@ -59,7 +59,7 @@ const AboutUs=()=>{
   <p className="bottom-paragraph"></p>
 <div className="container">
 <div className="row">
-    <div className="col_xl_five col-lg-3 col-md-6 col-sm-12">
+    <div className=" col_xl_five col-lg-3 col-md-6 col-sm-12">
         <div className="icon-box-1">
           <div className="icon-box-1-icon">
             <i class="fas fa-wifi"></i>

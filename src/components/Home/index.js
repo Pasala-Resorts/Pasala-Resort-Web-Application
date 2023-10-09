@@ -16,8 +16,8 @@ import { Container } from "react-bootstrap";
 const Home=()=> {
     function preloadImages() {
         const imageUrls = [
-            'https://res.cloudinary.com/dobpvkjao/image/upload/v1695650120/r2_41_-_Photo_fvifoj.jpg', // Replace with your image URLs
-            'https://res.cloudinary.com/dobpvkjao/image/upload/v1695650119/r1_38_-_Photo_hoa3cu.jpg',
+            'https://res.cloudinary.com/dobpvkjao/image/upload/v1696601463/mm_13_-_Photo_bimfdk.jpg', // Replace with your image URLs
+            'https://res.cloudinary.com/dobpvkjao/image/upload/v1696601542/mm_12_-_Photo_obbczy.jpg',
             'https://res.cloudinary.com/dobpvkjao/image/upload/v1695650117/r3_54_-_Photo_vsuzi1.jpg',
         ];
     
@@ -62,7 +62,7 @@ const Home=()=> {
                     </Col>
                     <Col md="1"></Col>
                     <Col md="5">
-                        <img src="" alt="welcome" className="img-home m-md-5" />
+                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1695649719/r2_49_-_Photo_eokimh.jpg" alt="welcome" className="img-home m-md-5" />
                     </Col>
 <Col md="1"></Col>
                    <Row> <br/>
