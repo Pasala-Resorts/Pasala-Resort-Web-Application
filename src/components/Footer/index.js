@@ -11,19 +11,19 @@ const Footer=()=>{
       </div>
 
       <div>
-        <a href='www.google.com' className='me-4 text-reset'>
+        <a href='https://www.facebook.com/profile.php?id=61552085644204&sk=about' className='me-4 text-reset'>
           <MDBIcon fab icon="facebook-f" />
         </a>
-        <a href='www.google.com' className='me-4 text-reset'>
+        <a href='https://www.instagram.com/coneja.collection/' className='me-4 text-reset'>
           <MDBIcon fab icon="twitter" />
         </a>
-        <a href='www.google.com' className='me-4 text-reset'>
+        <a href='https://www.google.com/maps/place/PASALA+RESORTS/@17.5627914,78.7206379,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb7913fd7a5223:0x1f91fe79c6acffdb!8m2!3d17.5627863!4d78.7232128!16s%2Fg%2F11s9gb9n39?entry=ttu   ' className='me-4 text-reset'>
           <MDBIcon fab icon="google" />
         </a>
-        <a href='www.google.com' className='me-4 text-reset'>
+        <a href='https://www.instagram.com/coneja.collection/' className='me-4 text-reset'>
           <MDBIcon fab icon="instagram" />
         </a>
-        <a href='www.google.com' className='me-4 text-reset'>
+        <a href='https://www.youtube.com/channel/UCZjl_uikNi5M_WnI1-Cfc0w' className='me-4 text-reset'>
           <MDBIcon fab icon="linkedin" />
         </a>
         <a href='www.google.com' className='me-4 text-reset'>
@@ -78,7 +78,7 @@ const Footer=()=>{
             </p>
             <p>
               <MDBIcon icon="envelope" className="me-3" />
-              booking@pasalaresortsnpm .com
+              booking@pasalaresorts.com
             </p>
             <p>
               <MDBIcon icon="phone" className="me-3" /> +91 7569721310
