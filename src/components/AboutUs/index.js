@@ -118,7 +118,7 @@ const AboutUs=()=>{
       <div className="icon-box-1">
         <div className="icon-box-1-icon">
         <i class="fab fa-watchman-monitoring"></i>
-          <p className="icon-twxt">security</p>
+          <p className="icon-twxt">Security monitoring </p>
         </div>
       </div>
     </div>

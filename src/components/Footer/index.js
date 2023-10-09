@@ -41,8 +41,8 @@ const Footer=()=>{
               Pasala Resorts
             </h6>
             <p>
-              Pasala resorts offers you Peaceful Farm house,1 hour far from city ,
-              very near to nature.
+              Pasala Resorts offers you a peaceful environment to relax from your day to day life.
+              Come experience a lifestyle close to nature.
             </p>
           </MDBCol>
 
@@ -74,18 +74,16 @@ const Footer=()=>{
             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
             <p>
               <MDBIcon icon="home" className="me-2" />
-              kessara, Hyderabad, Telanagana.
+              Kessara, Hyderabad, Telanagana.
             </p>
             <p>
               <MDBIcon icon="envelope" className="me-3" />
-              info@pasalaresorts.com
+              booking@pasalaresortsnpm .com
             </p>
             <p>
-              <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+              <MDBIcon icon="phone" className="me-3" /> +91 7569721310
             </p>
-            <p>
-              <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-            </p>
+           
           </MDBCol>
         </MDBRow>
       </MDBContainer>
