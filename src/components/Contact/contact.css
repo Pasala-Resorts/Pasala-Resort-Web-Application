@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-.page-header-aboutus {
+.page-header-contact {
 	margin: 0;
 	border: 0;
 }
 
-.page-title-aboutus {
+.page-title-contact {
     display: block;
     background-image: url('https://www.sigmaintel.com/wp-content/uploads/2023/04/dylan-gillis-KdeqA3aTnBY-unsplash.jpg');
     background-position: center center;
@@ -22,7 +22,7 @@
     
 }
 
-.page-title-container-aboutus{
+.page-title-container-contact{
     color: white;
     text-align: center;
     position: relative;
@@ -32,13 +32,13 @@
 }
 
 @media screen and (max-width:768px) {
-    .page-title-container-aboutus{
+    .page-title-container-contact{
         padding-top:16%;
     }
     
 }
 
-.overlay-aboutus {
+.overlay-contact {
     opacity: 60%;
     filter: alpha(opacity=60);
     position: absolute;
@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width:768px){
-    .page-title-aboutus{
+    .page-title-contact{
         height: 28vh;
     }}
 

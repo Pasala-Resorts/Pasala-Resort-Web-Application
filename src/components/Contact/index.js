@@ -5,13 +5,13 @@ import Row from 'react-bootstrap/Row';
 const Contact = () => {
   return (
     <div style={{marginTop:'8vh'}}>
-      <header className="page-header-aboutus">
-    <div className="page-title-aboutus">
-            <div className="overlay-aboutus"></div>   
+      <header className="page-header-contact">
+    <div className="page-title-contact">
+            <div className="overlay-contact"></div>   
         <Container> 
             <Row>
-                <div className="page-title-container-aboutus">
-                <h1 className="page-title-heading-aboutus">Contact Us</h1>                 
+                <div className="page-title-container-contact">
+                <h1 className="page-title-heading-contact">Contact Us</h1>                 
                 </div>
             </Row>  
         </Container>                     
