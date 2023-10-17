@@ -5,10 +5,14 @@
 
 @keyframes slideshow {
   0%, 100% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650121/r2_47_-_Photo_vek2db.jpg'); }
-  25% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650120/r2_41_-_Photo_fvifoj.jpg'); } /* Replace with your second image URL */
-  50% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650119/r1_38_-_Photo_hoa3cu.jpg'); } /* Replace with your third image URL */
-  75% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650117/r3_54_-_Photo_vsuzi1.jpg'); } /* Replace with your fourth image URL */
+  20% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650120/r2_41_-_Photo_fvifoj.jpg'); } /* Replace with your second image URL */
+  40% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650119/r1_38_-_Photo_hoa3cu.jpg'); } /* Replace with your third image URL */
+  60% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695650117/r3_54_-_Photo_vsuzi1.jpg'); } /* Replace with your fourth image URL */
+  80% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1696597466/WhatsApp_Image_2023-10-06_at_4.01.44_PM_1_xw8qw7.jpg'); } /* Replace with your fourth image URL */
+  80% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1696601542/mm_12_-_Photo_obbczy.jpg'); } 
+  90% { background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693564721/RENDER_10_-_Photo.jpg.1_ypilse.jpg'); } 
 }
+
 
 
 .description{
@@ -173,7 +177,7 @@ a.palasa-resorts_text::after {
     width: 100%;
     /* background: #ede8e2; */
     color: #3a3535;
-    background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1693579645/CO_28_-_Photo.jpg.0_wdhrwa.jpg');
+    background-image: url('https://res.cloudinary.com/dobpvkjao/image/upload/v1695649719/r1_33_-_Photo_ehy8za.jpg');
     height:100vh;
     background-repeat: no-repeat;
     background-size: cover;

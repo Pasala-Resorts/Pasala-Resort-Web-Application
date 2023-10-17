@@ -62,7 +62,7 @@ const Home=()=> {
                     </Col>
                     <Col md="1"></Col>
                     <Col md="5">
-                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1695649719/r2_49_-_Photo_eokimh.jpg" alt="welcome" className="img-home m-md-5" />
+                        <img src="https://res.cloudinary.com/dobpvkjao/image/upload/v1697560463/r2_44_-_Photo_1_zyg42b.jpg" alt="welcome" className="img-home m-md-5" />
                     </Col>
 <Col md="1"></Col>
                    <Row> <br/>

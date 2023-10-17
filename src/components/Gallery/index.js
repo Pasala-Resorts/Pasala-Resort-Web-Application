@@ -33,6 +33,16 @@ const images = [
         original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1696597466/WhatsApp_Image_2023-10-06_at_4.01.43_PM_wtje1b.jpg",
         thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1696597466/WhatsApp_Image_2023-10-06_at_4.01.43_PM_wtje1b.jpg",
       },
+
+      {
+        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1697561956/mm_12_-_Photo_2_higqxr.jpg",
+        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1697561956/mm_12_-_Photo_2_higqxr.jpg",
+      },
+
+      {
+        original: "https://res.cloudinary.com/dobpvkjao/image/upload/v1697562099/1_28_-_Photo_2_xfqpno.jpg",
+        thumbnail: "https://res.cloudinary.com/dobpvkjao/image/upload/v1697562099/1_28_-_Photo_2_xfqpno.jpg",
+      },
   ];
 
 const Gallery=()=>{

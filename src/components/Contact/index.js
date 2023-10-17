@@ -25,17 +25,17 @@ const Contact = () => {
          <h1 class="section-title" style={{color:"#1B1717"}}>Contact us</h1>
 
          <ul class="contact-ul">
-           <li><i class="fa fa-location-dot"></i> keasara,Hyderabad,Telanagana</li>
+           <li><i class="fa fa-location-dot"></i> keesara,Hyderabad,Telanagana</li>
 
            <li>
              <i class="fa fa-phone"></i>
-             <a href="tel:08510004495"><b></b>+91 7569721310</a>,
-             <a href="tel:08510005495"><b>+91 9666382837</b></a>
+             <a href="tel:08510004495"><b></b>+91 7569721310</a>
+             <a href="tel:08510005495"><b></b></a>
            </li>
 
            <li>
              <i class="fa-solid fa-envelope"></i>
-             <a href="mailto:pardeepkumar4bjp@gmail.com"><b> info@pasalaresorts.com</b></a>
+             <a href="mailto:pardeepkumar4bjp@gmail.com"><b> booking@pasalaresorts.com</b></a>
            </li>
          </ul>
 
